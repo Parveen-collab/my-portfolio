@@ -4,11 +4,13 @@
 
 🧩 1. Project Setup
 Next.js setup = done
-Folder structure
+Folder structure = done
 Tailwind config
 Theme setup
-Layout setup
+Layout setup = done
 ⏱ 3–4 hours
+
+created home, project, gallery, skills, certificates, blog, resume, about-me, contact routes
 
 🧩 2. Navbar + Footer
 Responsive navbar
