@@ -9,7 +9,6 @@ Tailwind config = no need
 Theme setup = no need
 Layout setup = done
 ⏱ 3–4 hours
-
 created home, project, gallery, skills, certificates, blog, resume, about-me, contact routes
 refactored global.css file to reverse the background and foreground colors
 
