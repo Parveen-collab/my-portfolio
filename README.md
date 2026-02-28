@@ -12,12 +12,19 @@ Layout setup = done
 created home, project, gallery, skills, certificates, blog, resume, about-me, contact routes
 refactored global.css file to reverse the background and foreground colors
 
-🧩 2. Navbar + Footer
+🧩 2. Navbar + Footer = done
 Responsive navbar
 Scroll navigation
 Mobile menu
 Active link highlight
 ⏱ 4–5 hours
+Polishing of UI means
+1.No spacing
+2.No alignment
+3.No width control
+4.No hover effects
+5.No container limit
+6.No proper navbar layout balance
 
 🧩 3. Hero Section
 Profile image

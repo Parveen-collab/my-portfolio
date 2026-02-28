@@ -1,10 +1,11 @@
+import Home from "@/src/components/Home";
 import Image from "next/image";
 
-export default function Home() {
+export default function page() {
   return (
     <div className="flex min-h-screen items-center justify-center font-sans">
       <main className="flex min-h-screen items-center justify-between">
-        <h1>Welcome to My Portfolio Website.</h1>
+        <Home/>
       </main>
     </div>
   );
