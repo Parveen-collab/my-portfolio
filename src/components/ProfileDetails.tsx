@@ -97,27 +97,27 @@ const ProfileDetails = () => {
 
         <Link
           href="/resume.pdf"
-          className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+          className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:text-blue-600 transition-colors"
         >
           Download Resume
         </Link>
       </div>
 
       {/* Tech Stack Highlights */}
-      <div className="flex flex-wrap gap-3 text-sm text-gray-600 dark:text-gray-400">
-        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+      <div className="flex flex-wrap gap-3 text-sm text-gray-600">
+        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
           Next.js
         </span>
-        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
           ReactJs
         </span>
-        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors"> 
           Spring Boot
         </span>
-        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
           MySQL
         </span>
-        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
           AI Integration
         </span>
       </div>

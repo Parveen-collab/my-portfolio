@@ -28,7 +28,7 @@ const SocialProfileLinks = () => {
   return (
     <div className="flex flex-col gap-4">
 
-      <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-300">
+      <h3 className="text-lg font-bold">
         Connect
       </h3>
 
@@ -37,7 +37,7 @@ const SocialProfileLinks = () => {
         <Link
           href="https://github.com/YOUR_USERNAME"
           target="_blank"
-          className="p-3 rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+          className="p-3 rounded-full border border-gray-300 hover:text-blue-600 transition-colors"
           aria-label="GitHub Profile"
         >
           <Github size={20} />
@@ -46,7 +46,7 @@ const SocialProfileLinks = () => {
         <Link
           href="https://linkedin.com/in/YOUR_USERNAME"
           target="_blank"
-          className="p-3 rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+          className="p-3 rounded-full border border-gray-300 hover:text-blue-600 transition-colors"
           aria-label="LinkedIn Profile"
         >
           <Linkedin size={20} />
@@ -54,7 +54,7 @@ const SocialProfileLinks = () => {
 
         <Link
           href="mailto:pk16061999@gmail.com"
-          className="p-3 rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+          className="p-3 rounded-full border border-gray-300 hover:text-blue-600 transition-colors"
           aria-label="Send Email"
         >
           <Mail size={20} />
