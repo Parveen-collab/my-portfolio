@@ -36,8 +36,8 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className="w-full border-b dark:border-gray-800 dark:bg-black sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <nav className="w-full bg-black sticky top-0 z-50">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between bg-black">
         
         {/* Left Section */}
         <div className="flex flex-col">
@@ -52,10 +52,10 @@ const Navbar = () => {
         {/* Right Section */}
         <ul className="hidden md:flex items-center gap-8 text-sm font-medium">
           <li><Link href="/" className="hover:text-blue-600 transition-colors">Home</Link></li>
-          <li><Link href="#projects" className="hover:text-blue-600 transition-colors">Projects</Link></li>
-          <li><Link href="#skills" className="hover:text-blue-600 transition-colors">Skills</Link></li>
-          <li><Link href="#resume" className="hover:text-blue-600 transition-colors">Resume</Link></li>
-          <li><Link href="#contact" className="hover:text-blue-600 transition-colors">Contact</Link></li>
+          <li><Link href="/projects" className="hover:text-blue-600 transition-colors">Projects</Link></li>
+          <li><Link href="/skills" className="hover:text-blue-600 transition-colors">Skills</Link></li>
+          <li><Link href="/resume" className="hover:text-blue-600 transition-colors">Resume</Link></li>
+          <li><Link href="/contact" className="hover:text-blue-600 transition-colors">Contact</Link></li>
         </ul>
 
       </div>

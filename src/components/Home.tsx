@@ -24,9 +24,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className="min-h-[90vh] flex items-center">
+    <section className="flex items-center">
 
-      <div className="max-w-7xl mx-auto px-6 py-20 w-full">
+      <div className="max-w-7xl mx-auto w-full">
 
         <div className="flex flex-col md:flex-row items-center md:items-start gap-14">
 

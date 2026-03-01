@@ -76,11 +76,6 @@ export default function RootLayout({
           ${geistSans.variable} 
           ${geistMono.variable} 
           antialiased
-          bg-white 
-          text-black 
-          dark:bg-black 
-          dark:text-white
-          min-h-screen
         `}
       >
         <Navbar />
