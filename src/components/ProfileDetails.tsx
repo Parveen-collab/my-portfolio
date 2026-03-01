@@ -1,64 +1,129 @@
-import React from 'react'
+// import React from 'react'
+
+// const ProfileDetails = () => {
+//     return (
+//         <div>
+//             <div>
+//                 <h1>Hi, I'm Parveen Kumar</h1>
+//                 <h3>Full Stack Engineer | AI Integration</h3>
+//             </div>
+//             <div className='flex flex-col md:flex-row'>
+//                 <div>
+//                     <ul>
+//                         <li>AI Enthusiast</li>
+//                     </ul>
+//                 </div>
+//                 <div>
+//                     <ul>
+//                         <li>Machine Learning Engineer</li>
+//                     </ul>
+//                 </div>
+//                 <div>
+//                     <ul>
+//                         <li>Deep Learning Expert</li>
+//                     </ul>
+//                 </div>
+//                 <div>
+//                     <ul>
+//                         <li>Computer Vision Researcher</li>
+//                     </ul>
+//                 </div>
+//                 <div>
+//                     <ul>
+//                         <li>Developer</li>
+//                     </ul>
+//                 </div>
+//             </div>
+//             <div className='flex flex-col md:flex-row'>
+//                 <div>
+//                     <ul>
+//                         <li>icon</li>
+//                         <li>Location</li>
+//                         <li>Patna, Bihar, India.</li>
+//                     </ul>
+//                 </div>
+//                 <div>
+//                     <ul>
+//                         <li>icon</li>
+//                         <li>Expertise</li>
+//                         <li>Frontend | Backend | AI</li>
+//                     </ul>
+//                 </div>
+//                 <div>
+//                     <ul>
+//                         <li>icon</li>
+//                         <li>Connect</li>
+//                         <li>pk16061999@gmail.com</li>
+//                     </ul>
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
+
+// export default ProfileDetails
+import React from "react";
+import Link from "next/link";
 
 const ProfileDetails = () => {
-    return (
-        <div className='bg-indigo-500'>
-            <div className='bg-green-500'>
-                <h1>Hi, I'm Parveen Kumar</h1>
-                <h3>Full Stack Engineer | AI Integration</h3>
-            </div>
-            <div className='flex flex-col md:flex-row bg-yellow-500'>
-                <div className='bg-red-500'>
-                    <ul>
-                        <li>AI Enthusiast</li>
-                    </ul>
-                </div>
-                <div className='bg-violet-500'>
-                    <ul>
-                        <li>Machine Learning Engineer</li>
-                    </ul>
-                </div>
-                <div className='bg-indigo-500'>
-                    <ul>
-                        <li>Deep Learning Expert</li>
-                    </ul>
-                </div>
-                <div className='bg-blue-500'>
-                    <ul>
-                        <li>Computer Vision Researcher</li>
-                    </ul>
-                </div>
-                <div className='bg-yellow-500'>
-                    <ul>
-                        <li>Developer</li>
-                    </ul>
-                </div>
-            </div>
-            <div className='flex flex-col md:flex-row bg-orange-500'>
-                <div className='bg-pink-500'>
-                    <ul>
-                        <li>icon</li>
-                        <li>Location</li>
-                        <li>Patna, Bihar, India.</li>
-                    </ul>
-                </div>
-                <div className='bg-gray-500'>
-                    <ul>
-                        <li>icon</li>
-                        <li>Expertise</li>
-                        <li>Frontend | Backend | AI</li>
-                    </ul>
-                </div>
-                <div className='bg-purple-500'>
-                    <ul>
-                        <li>icon</li>
-                        <li>Connect</li>
-                        <li>pk16061999@gmail.com</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    )
-}
+  return (
+    <section className="flex flex-col gap-6">
 
-export default ProfileDetails
+      {/* Intro */}
+      <div>
+        <h1 className="text-3xl md:text-5xl font-bold leading-tight">
+          Hi, I&apos;m <span className="text-blue-600">Parveen Kumar</span>
+        </h1>
+
+        <h2 className="mt-3 text-lg md:text-xl text-gray-600 dark:text-gray-400">
+          Full-Stack Engineer building scalable platforms with AI integration
+        </h2>
+
+        <p className="mt-4 max-w-2xl text-gray-500 dark:text-gray-400">
+          I design and develop production-ready web applications using 
+          Next.js, Spring Boot, PostgreSQL, and modern cloud practices.
+          Focused on building secure, scalable systems for global users.
+        </p>
+      </div>
+
+      {/* CTA Buttons */}
+      <div className="flex flex-wrap gap-4">
+        <Link
+          href="#projects"
+          className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
+        >
+          View Projects
+        </Link>
+
+        <Link
+          href="/resume.pdf"
+          className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+        >
+          Download Resume
+        </Link>
+      </div>
+
+      {/* Tech Stack Highlights */}
+      <div className="flex flex-wrap gap-3 text-sm text-gray-600 dark:text-gray-400">
+        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+          Next.js
+        </span>
+        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+          ReactJs
+        </span>
+        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+          Spring Boot
+        </span>
+        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+          MySQL
+        </span>
+        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full">
+          AI Integration
+        </span>
+      </div>
+
+    </section>
+  );
+};
+
+export default ProfileDetails;

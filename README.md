@@ -18,13 +18,6 @@ Scroll navigation
 Mobile menu
 Active link highlight
 ⏱ 4–5 hours
-Polishing of UI means
-1.No spacing
-2.No alignment
-3.No width control
-4.No hover effects
-5.No container limit
-6.No proper navbar layout balance
 
 🧩 3. Hero Section
 Profile image
