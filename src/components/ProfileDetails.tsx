@@ -89,14 +89,14 @@ const ProfileDetails = () => {
       {/* CTA Buttons */}
       <div className="flex flex-wrap gap-4">
         <Link
-          href="#projects"
+          href="/projects"
           className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
         >
           View Projects
         </Link>
 
         <Link
-          href="/resume.pdf"
+          href="/resume"
           className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:text-blue-600 transition-colors"
         >
           Download Resume

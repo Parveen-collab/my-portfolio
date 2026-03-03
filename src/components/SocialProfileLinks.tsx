@@ -35,7 +35,7 @@ const SocialProfileLinks = () => {
       <div className="flex items-center gap-6">
 
         <Link
-          href="https://github.com/YOUR_USERNAME"
+          href="https://github.com/Parveen-collab"
           target="_blank"
           className="p-3 rounded-full border border-gray-300 hover:text-blue-600 transition-colors"
           aria-label="GitHub Profile"
@@ -44,7 +44,7 @@ const SocialProfileLinks = () => {
         </Link>
 
         <Link
-          href="https://linkedin.com/in/YOUR_USERNAME"
+          href="https://www.linkedin.com/in/parveen-kumar-664b8b24b/"
           target="_blank"
           className="p-3 rounded-full border border-gray-300 hover:text-blue-600 transition-colors"
           aria-label="LinkedIn Profile"
