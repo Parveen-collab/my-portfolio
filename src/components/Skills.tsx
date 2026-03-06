@@ -32,10 +32,10 @@ const skills: Skill[] = [
 
 const Skills: React.FC = () => {
   return (
-    <section className="py-20 bg-black text-white relative">
+    <section className="py-20 text-white relative">
 
       {/* Title */}
-      <div className="text-center mb-12">
+      <div className="text-4xl font-bold px-35 mb-12">
         <h1 className="text-4xl font-bold text-green-400">My Skills</h1>
         <p className="text-gray-400 mt-2">
           Technical expertise honed with curiosity to solve complex problems
@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
       </div>
 
       {/* Skills Container */}
-      <div className="relative max-w-5xl mx-auto h-[400px] rounded-2xl bg-gray-900 border border-gray-800 shadow-lg overflow-hidden">
+      <div className="relative max-w-5xl mx-auto h-[400px] rounded-2xl shadow-lg overflow-hidden">
 
         {skills.map((skill, index) => (
           <div
