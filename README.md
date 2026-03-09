@@ -33,13 +33,6 @@ Responsive grid
 Hover effects
 ⏱ 5–6 hours
 
-🧩 5. Gallery (with Tabs + Filter Logic)
-Tabs
-Filtering logic
-Image grid
-Animations
-⏱ 6–8 hours
-
 🧩 6. Skills (Visual Icons Section)
 Skill node component
 Grid layout
@@ -56,17 +49,6 @@ Responsive grid
 Card or timeline
 Responsive layout
 ⏱ 3 hours
-
-🧩 9. Certifications Section
-Reusable card
-External links
-⏱ 2–3 hours
-
-🧩 10. Blog Section (Frontend Only)
-Blog cards
-Blog dynamic routing
-Blog layout page
-⏱ 6–8 hours
 
 🧩 11. Resume Section
 PDF viewer
