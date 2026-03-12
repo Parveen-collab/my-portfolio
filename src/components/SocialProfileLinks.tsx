@@ -28,10 +28,6 @@ const SocialProfileLinks = () => {
   return (
     <div className="flex flex-col gap-4">
 
-      <h3 className="text-lg font-bold">
-        Connect
-      </h3>
-
       <div className="flex items-center gap-6">
 
         <Link

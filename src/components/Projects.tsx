@@ -38,7 +38,7 @@ const Projects = () => {
 
         {/* Header */}
         <div className="mb-14">
-          <h1 className="text-4xl font-bold mb-4">🚀 Projects</h1>
+          <h1 className="text-4xl font-bold mb-4">Projects</h1>
           <p className="text-gray-400 max-w-2xl">
             A collection of my major works — showcasing backend systems, AI
             integration, and scalable web architecture.

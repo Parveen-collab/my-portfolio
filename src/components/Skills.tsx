@@ -58,14 +58,14 @@ const Skills: React.FC = () => {
 
       {/* Title */}
       <div className="max-w-6xl mx-auto px-6 mb-12">
-        <h1 className="text-4xl font-bold">🚀 My Skills</h1>
+        <h1 className="text-4xl font-bold">Skills</h1>
         <p className="text-gray-400 mt-2">
           Technical expertise honed with curiosity to solve complex problems
         </p>
       </div>
 
       {/* Floating Skills */}
-      <div className="relative max-w-5xl mx-auto h-[420px] bg-gray-900 rounded-2xl shadow-lg overflow-hidden">
+      <div className="relative max-w-5xl mx-auto h-[420px] rounded-2xl shadow-lg overflow-hidden">
 
         {skills.map((skill, index) => (
           <div

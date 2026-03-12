@@ -1,65 +1,43 @@
 
-⏳ Total Frontend Development Time
-🟢 If You Work 3–4 Hours Per Day
-
 🧩 1. Project Setup
-Next.js setup = done
-Folder structure = done
-Tailwind config = no need
-Theme setup = no need
-Layout setup = done
-⏱ 3–4 hours
-created home, project, gallery, skills, certificates, blog, resume, about-me, contact routes
-refactored global.css file to reverse the background and foreground colors
-
-🧩 2. Navbar + Footer = done
+🧩 2. Navbar + Footer
 Responsive navbar
 Scroll navigation
 Mobile menu
-Active link highlight
-⏱ 4–5 hours
+Active link highlight = done
 
 🧩 3. Hero Section
-Profile image
+Profile image = done
 Tags
-CTA buttons
-Social links
+CTA buttons = done
+Social links = done
 Animation polish
-⏱ 4–6 hours
 
 🧩 4. Projects Section
-Reusable project card
-Responsive grid
-Hover effects
-⏱ 5–6 hours
+Reusable project card = done
+Responsive grid = done
+Hover effects = done
 
 🧩 6. Skills (Visual Icons Section)
 Skill node component
 Grid layout
-Hover effects
-⏱ 4–5 hours
+Hover effects = done
 
 🧩 7. Detailed Skills Section
-Category cards
-Lists
-Responsive grid
-⏱ 3–4 hours
+Category cards = done
+Lists = done
+Responsive grid = done
 
 🧩 8. Education Section
 Card or timeline
 Responsive layout
-⏱ 3 hours
 
 🧩 11. Resume Section
-PDF viewer
-Download button
-Responsive container
-⏱ 3–4 hours
+PDF viewer = done
+Download button = done
+Responsive container = done
 
 🧩 12. Contact Section (Frontend Only)
-Social links
-Form UI
+Social links = done
+Form UI = done
 Validation (frontend only)
-⏱ 4–5 hours
-
-🧮 TOTAL TIME = 40–45 hours

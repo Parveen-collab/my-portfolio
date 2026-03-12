@@ -19,6 +19,9 @@ const Home = () => {
           {/* Profile Details */}
           <div className="flex flex-col flex-1 gap-8 text-center md:text-left">
             <ProfileDetails />
+            <h3 className="text-lg font-bold">
+              Connect
+            </h3>
             <SocialProfileLinks />
           </div>
 

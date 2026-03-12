@@ -5,8 +5,8 @@ const Resume = () => {
     <section className="w-full py-16 px-6 bg-[#141f17] text-white">
       
       {/* Heading */}
-      <div className="text-center mb-10">
-        <h1 className="text-4xl font-bold mb-2">🚀 Resume</h1>
+      <div className="max-w-6xl mx-auto px-6 mb-12">
+        <h1 className="text-4xl font-bold mb-2">Resume</h1>
         <p className="text-gray-400">
           Quick summary below and full resume preview with download option
         </p>
@@ -94,7 +94,7 @@ const Resume = () => {
       <div className="max-w-6xl mx-auto mt-10">
         <div className="border border-gray-700 rounded-xl overflow-hidden shadow-lg">
           <iframe
-            src="/resume.pdf"
+            src="/Resume.pdf"
             className="w-full h-[700px]"
             title="Resume"
           />
