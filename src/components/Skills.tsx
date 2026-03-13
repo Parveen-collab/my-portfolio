@@ -8,6 +8,7 @@ import {
   FaGitAlt,
   FaPython,
 } from "react-icons/fa";
+import { SiApachekafka } from "react-icons/si";
 
 import {
   SiNextdotjs,
@@ -49,7 +50,9 @@ const skills: Skill[] = [
 
   { name: "Spring Boot", icon: <SiSpringboot size={28} />, top: "45%", left: "70%" },
 
-  { name: "Microservices", icon: <TbApi size={28} />, top: "20%", left: "60%" },
+  { name: "Microservices", icon: <TbApi size={28} />, top: "10%", left: "40%" },
+
+  { name: "Apache Kafka", icon: <SiApachekafka size={28} />, top: "10%", left: "30%" },
 ];
 
 const Skills: React.FC = () => {
@@ -90,10 +93,9 @@ const Skills: React.FC = () => {
         <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
           <h2 className="text-green-400 font-semibold mb-3">Programming Languages</h2>
           <ul className="text-gray-300 space-y-1">
-            <li>Python</li>
-            <li>C</li>
-            <li>C++</li>
+            <li>Javascript</li>
             <li>Java</li>
+            <li>Python</li>
           </ul>
         </div>
 
@@ -102,10 +104,9 @@ const Skills: React.FC = () => {
           <ul className="text-gray-300 space-y-1">
             <li>HTML</li>
             <li>CSS</li>
-            <li>JavaScript</li>
+            <li>Typescript</li>
             <li>React</li>
             <li>Next.js</li>
-            <li>TypeScript</li>
           </ul>
         </div>
 
@@ -133,8 +134,9 @@ const Skills: React.FC = () => {
           <h2 className="text-green-400 font-semibold mb-3">Core Concepts</h2>
           <ul className="text-gray-300 space-y-1">
             <li>Data Structures & Algorithms</li>
-            <li>Machine Learning</li>
-            <li>Deep Learning</li>
+            <li>System Design</li>
+            <li>Microservice</li>
+            <li>Event-Driven-Architrcture System</li>
             <li>Explainable AI (XAI)</li>
           </ul>
         </div>

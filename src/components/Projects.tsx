@@ -21,13 +21,13 @@ const projects = [
     live: "https://github.com/Parveen-collab/Parveen-collab",
   },
   {
-    title: "Cosmovista",
+    title: "My Portfolio Website",
     description:
-      "Space exploration platform integrating NASA APIs with interactive dashboards.",
-    image: "/Image/profile-photo.jpeg",
-    tech: ["Next.js", "Tailwind", "API Integration"],
+      "An Introduction Webpage for myself.",
+    image: "/Image/my-portfolio-preview.png",
+    tech: ["Next.js", "Typescript", "API Integration"],
     code: "https://github.com/Parveen-collab/my-portfolio",
-    live: "#",
+    live: "https://my-portfolio-black-chi-37.vercel.app/",
   },
 ]
 

@@ -24,8 +24,8 @@ const Resume = () => {
               Parveen Kumar
             </h2>
             <p className="text-gray-400">Full Stack Developer</p>
-            <p className="text-gray-400">Muzaffarpur, Bihar</p>
-            <p className="text-gray-400">parveen@example.com</p>
+            <p className="text-gray-400">Patna, Bihar</p>
+            <p className="text-gray-400">parveen_24a12res426@iitp.ac.in</p>
           </div>
 
           {/* Education */}
@@ -58,8 +58,8 @@ const Resume = () => {
             </h3>
             <ul className="list-disc list-inside text-gray-400 space-y-1">
               <li>Nirmaansetu Construction Platform</li>
-              <li>Cosmovista Space Explorer</li>
-              <li>Music School Website (Next.js)</li>
+              <li>GitHub Profile</li>
+              <li>My Portfolio Website</li>
             </ul>
           </div>
 
@@ -69,14 +69,19 @@ const Resume = () => {
 
             <div className="flex flex-wrap gap-2">
               {[
-                "React",
+                "React.Js",
                 "Next.js",
                 "TypeScript",
                 "Java",
                 "Spring Boot",
+                "Microservice",
+                "Event-Driven-System-Architecture",
+                "System Design",
                 "MySQL",
+                "PostgreSQL",
+                "MongoDB",
                 "Tailwind",
-                "Git",
+                "Git & GitHub",
               ].map((skill) => (
                 <span
                   key={skill}
