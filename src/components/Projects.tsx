@@ -3,22 +3,22 @@ import React from "react"
 
 const projects = [
   {
-    title: "NirmaanSetu Platform",
+    title: "NirmaanSetu",
     description:
       "Scalable full-stack platform connecting construction stakeholders globally with AI-based matching and analytics.",
-    image: "/Image/profile-photo.jpeg",
+    image: "/Image/logo-NirmaanSetu.jpg",
     tech: ["Next.js", "Spring Boot", "MySQL", "AI"],
     code: "https://github.com/Parveen-collab/NirmaanSetu",
     live: "https://nirmaan-setu.vercel.app/",
   },
   {
-    title: "Sign Language Interpreter",
+    title: "GitHub Profile",
     description:
-      "AI-powered real-time sign language recognition system using deep learning and computer vision.",
-    image: "/Image/profile-photo.jpeg",
-    tech: ["Python", "TensorFlow", "OpenCV"],
-    code: "#",
-    live: "#",
+      "Parveen-collab/Parveen-collab is a special repository.Its README.md will appear on your public profile.",
+    image:  "/Image/Github-profile.png",
+    tech: ["HTML, CSS, Javascript"],
+    code: "https://github.com/Parveen-collab",
+    live: "https://github.com/Parveen-collab/Parveen-collab",
   },
   {
     title: "Cosmovista",
@@ -26,7 +26,7 @@ const projects = [
       "Space exploration platform integrating NASA APIs with interactive dashboards.",
     image: "/Image/profile-photo.jpeg",
     tech: ["Next.js", "Tailwind", "API Integration"],
-    code: "#",
+    code: "https://github.com/Parveen-collab/my-portfolio",
     live: "#",
   },
 ]

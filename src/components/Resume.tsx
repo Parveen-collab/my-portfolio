@@ -21,7 +21,7 @@ const Resume = () => {
           {/* Name */}
           <div>
             <h2 className="text-xl font-semibold text-blue-400">
-              👨‍💻 Parveen Kumar
+              Parveen Kumar
             </h2>
             <p className="text-gray-400">Full Stack Developer</p>
             <p className="text-gray-400">Muzaffarpur, Bihar</p>
@@ -30,7 +30,7 @@ const Resume = () => {
 
           {/* Education */}
           <div>
-            <h3 className="text-lg font-semibold mb-2">🎓 Education</h3>
+            <h3 className="text-lg font-semibold mb-2">Education</h3>
             <p className="text-gray-400">
               B.S. in Computer Science and Data Analytics
             </p>
@@ -39,7 +39,7 @@ const Resume = () => {
 
           {/* Achievements */}
           <div>
-            <h3 className="text-lg font-semibold mb-2">🏆 Achievements</h3>
+            <h3 className="text-lg font-semibold mb-2">Achievements</h3>
             <ul className="list-disc list-inside text-gray-400 space-y-1">
               <li>Built multiple full-stack web applications</li>
               <li>1+ year frontend development internship</li>
@@ -54,7 +54,7 @@ const Resume = () => {
           {/* Projects */}
           <div>
             <h3 className="text-lg font-semibold mb-2">
-              💻 Projects & Experience
+              Projects & Experience
             </h3>
             <ul className="list-disc list-inside text-gray-400 space-y-1">
               <li>Nirmaansetu Construction Platform</li>
@@ -65,7 +65,7 @@ const Resume = () => {
 
           {/* Skills */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">⚡ Key Skills</h3>
+            <h3 className="text-lg font-semibold mb-3">Key Skills</h3>
 
             <div className="flex flex-wrap gap-2">
               {[
@@ -104,12 +104,12 @@ const Resume = () => {
       {/* Download Button */}
       <div className="text-center mt-8">
         <a
-          href="/resume.pdf"
+          href="/Resume.pdf"
           download
           target="_blank"
-          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-medium transition"
+          className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:text-blue-600 transition-colors"
         >
-          📄 Download Full Resume
+          Download Resume
         </a>
       </div>
     </section>

@@ -80,8 +80,8 @@ const ProfileDetails = () => {
         </h2>
 
         <p className="mt-4 max-w-2xl text-gray-500 dark:text-gray-400">
-          I design and develop production-ready web applications using 
-          Next.js, Spring Boot, PostgreSQL, and modern cloud practices.
+          I design and develop production-ready web applications using
+          Next.js, Spring Boot, MySQL, PostgreSQL, MongoDB and modern cloud practices.
           Focused on building secure, scalable systems for global users.
         </p>
       </div>
@@ -96,7 +96,7 @@ const ProfileDetails = () => {
         </Link>
 
         <Link
-          href="/resume"
+          href="/Resume.pdf"
           className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:text-blue-600 transition-colors"
         >
           Download Resume
@@ -109,13 +109,16 @@ const ProfileDetails = () => {
           Next.js
         </span>
         <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
-          ReactJs
-        </span>
-        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors"> 
           Spring Boot
         </span>
         <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
           MySQL
+        </span>
+        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
+          Microservice
+        </span>
+        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
+          Apache Kafka
         </span>
         <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
           AI Integration

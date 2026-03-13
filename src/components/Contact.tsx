@@ -38,7 +38,7 @@ const Contact = () => {
             />
 
             <textarea
-              rows="4"
+              rows={4}
               placeholder="Your Message"
               className="w-full rounded-md bg-slate-800 px-4 py-3 text-white outline-none border border-slate-700 focus:border-blue-500"
             ></textarea>
