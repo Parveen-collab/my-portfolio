@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => {
   return (
     <section className="w-full py-16 px-6 bg-[#141f17] text-white">
-      
+
       {/* Heading */}
       <div className="max-w-6xl mx-auto px-6 mb-12">
         <h1 className="text-4xl font-bold mb-2">Resume</h1>
@@ -14,10 +14,10 @@ const Resume = () => {
 
       {/* Resume Summary Card */}
       <div className="max-w-6xl mx-auto bg-[#1c2a21] rounded-2xl p-8 shadow-lg border border-gray-700 grid md:grid-cols-2 gap-8">
-        
+
         {/* Left Column */}
         <div className="space-y-6">
-          
+
           {/* Name */}
           <div>
             <h2 className="text-xl font-semibold text-blue-400">
@@ -41,8 +41,8 @@ const Resume = () => {
           <div>
             <h3 className="text-lg font-semibold mb-2">Achievements</h3>
             <ul className="list-disc list-inside text-gray-400 space-y-1">
-              <li>Built multiple full-stack web applications</li>
               <li>1+ year frontend development internship</li>
+              <li>Built multiple full-stack web applications</li>
               <li>Experience with React, Next.js, and Java</li>
             </ul>
           </div>
@@ -50,7 +50,7 @@ const Resume = () => {
 
         {/* Right Column */}
         <div className="space-y-6">
-          
+
           {/* Projects */}
           <div>
             <h3 className="text-lg font-semibold mb-2">

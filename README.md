@@ -1,43 +1,43 @@
 
 🧩 1. Project Setup
-🧩 2. Navbar + Footer
-Responsive navbar
-Scroll navigation
-Mobile menu
-Active link highlight = done
-
-🧩 3. Hero Section
+🧩 2. Home Section
 Profile image = done
-Tags
 CTA buttons = done
 Social links = done
-Animation polish
+Navbar
+Responsive navbar = done
+Mobile menu = done
+Active link highlight = done
 
-🧩 4. Projects Section
+🧩 3. Projects Section
 Reusable project card = done
 Responsive grid = done
 Hover effects = done
 
-🧩 6. Skills (Visual Icons Section)
-Skill node component
-Grid layout
+🧩 4. Skills
+Skill node component = done
+Grid layout = done
 Hover effects = done
-
-🧩 7. Detailed Skills Section
+6.1 Detailed Skills Section
 Category cards = done
 Lists = done
 Responsive grid = done
 
-🧩 8. Education Section
-Card or timeline
-Responsive layout
-
-🧩 11. Resume Section
+🧩 5. Resume Section
 PDF viewer = done
 Download button = done
 Responsive container = done
 
-🧩 12. Contact Section (Frontend Only)
+🧩 6. Contact Section
 Social links = done
 Form UI = done
-Validation (frontend only)
+
+To Do
+1. Create resumes based on Roles like = done
+    1.1 junior Software Engineer = word, pdf
+    1.2 Junior Full Stack Developer = word, pdf
+    1.3 Frontend Developer (NextJs/ReactJs) = word, pdf
+    1.4 Junior Java Developer = word, pdf
+2. Add Button to select Resume According to the Role in Resume Section
+3. Create APIs List
+    3.1 Send Message API (POST)

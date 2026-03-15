@@ -96,7 +96,7 @@ const ProfileDetails = () => {
         </Link>
 
         <Link
-          href="/Resume.pdf"
+          href="/resume"
           className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:text-blue-600 transition-colors"
         >
           Download Resume
