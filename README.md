@@ -38,6 +38,6 @@ To Do
     1.2 Junior Full Stack Developer = word, pdf
     1.3 Frontend Developer (NextJs/ReactJs) = word, pdf
     1.4 Junior Java Developer = word, pdf
-2. Add Button to select Resume According to the Role in Resume Section
-3. Create APIs List
+2. Add Button to select Resume According to the Role in Resume Section = not needed right now
+3. Create APIs List = not needed right now
     3.1 Send Message API (POST)

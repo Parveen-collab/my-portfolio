@@ -6,14 +6,14 @@ const Resume = () => {
 
       {/* Heading */}
       <div className="max-w-6xl mx-auto px-6 mb-12">
-        <h1 className="text-4xl font-bold mb-2">Resume</h1>
+        <h1 className="text-4xl font-bold md:text-5xl mb-2">Resume</h1>
         <p className="text-gray-400">
           Quick summary below and full resume preview with download option
         </p>
       </div>
 
       {/* Resume Summary Card */}
-      <div className="max-w-6xl mx-auto bg-[#1c2a21] rounded-2xl p-8 shadow-lg border border-gray-700 grid md:grid-cols-2 gap-8">
+      <div className="max-w-6xl mx-auto bg-[#1c2a21] rounded-2xl p-8 shadow-lg border border-gray-700 grid grid-cols-1 md:grid-cols-2 gap-8">
 
         {/* Left Column */}
         <div className="space-y-6">
@@ -24,7 +24,7 @@ const Resume = () => {
               Parveen Kumar
             </h2>
             <p className="text-gray-400">Full Stack Developer</p>
-            <p className="text-gray-400">Patna, Bihar</p>
+            <p className="text-gray-400">Patna, Bihar, India • Open to relocation (Germany/EU)</p>
             <p className="text-gray-400">parveen_24a12res426@iitp.ac.in</p>
           </div>
 
@@ -42,7 +42,7 @@ const Resume = () => {
             <h3 className="text-lg font-semibold mb-2">Achievements</h3>
             <ul className="list-disc list-inside text-gray-400 space-y-1">
               <li>1+ year frontend development internship</li>
-              <li>Built multiple full-stack web applications</li>
+              <li>Developed full-stack applications using React, Next.js, Java Spring Boot</li>
               <li>Experience with React, Next.js, and Java</li>
             </ul>
           </div>
@@ -85,7 +85,7 @@ const Resume = () => {
               ].map((skill) => (
                 <span
                   key={skill}
-                  className="px-3 py-1 bg-gray-800 border border-gray-700 rounded-lg text-sm"
+                  className="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-sm hover:border-blue-500 hover:text-blue-400 transition"
                 >
                   {skill}
                 </span>
@@ -99,7 +99,7 @@ const Resume = () => {
       <div className="max-w-6xl mx-auto mt-10">
         <div className="border border-gray-700 rounded-xl overflow-hidden shadow-lg">
           <iframe
-            src="/Resume.pdf"
+            src="/pdf/master-resume.pdf"
             className="w-full h-[700px]"
             title="Resume"
           />
@@ -107,11 +107,18 @@ const Resume = () => {
       </div>
 
       {/* Download Button */}
-      <div className="text-center mt-8">
+      <div className="flex justify-center gap-4 mt-8">
         <a
-          href="/Resume.pdf"
-          download
+          href="/pdf/master-resume.pdf"
           target="_blank"
+          className="px-6 py-3 bg-blue-600 rounded-lg font-medium hover:bg-blue-700 transition"
+        >
+          View Resume
+        </a>
+
+        <a
+          href="/pdf/master-resume.pdf"
+          download
           className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:text-blue-600 transition-colors"
         >
           Download Resume
