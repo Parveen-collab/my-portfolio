@@ -1,67 +1,3 @@
-// import React from 'react'
-
-// const ProfileDetails = () => {
-//     return (
-//         <div>
-//             <div>
-//                 <h1>Hi, I'm Parveen Kumar</h1>
-//                 <h3>Full Stack Engineer | AI Integration</h3>
-//             </div>
-//             <div className='flex flex-col md:flex-row'>
-//                 <div>
-//                     <ul>
-//                         <li>AI Enthusiast</li>
-//                     </ul>
-//                 </div>
-//                 <div>
-//                     <ul>
-//                         <li>Machine Learning Engineer</li>
-//                     </ul>
-//                 </div>
-//                 <div>
-//                     <ul>
-//                         <li>Deep Learning Expert</li>
-//                     </ul>
-//                 </div>
-//                 <div>
-//                     <ul>
-//                         <li>Computer Vision Researcher</li>
-//                     </ul>
-//                 </div>
-//                 <div>
-//                     <ul>
-//                         <li>Developer</li>
-//                     </ul>
-//                 </div>
-//             </div>
-//             <div className='flex flex-col md:flex-row'>
-//                 <div>
-//                     <ul>
-//                         <li>icon</li>
-//                         <li>Location</li>
-//                         <li>Patna, Bihar, India.</li>
-//                     </ul>
-//                 </div>
-//                 <div>
-//                     <ul>
-//                         <li>icon</li>
-//                         <li>Expertise</li>
-//                         <li>Frontend | Backend | AI</li>
-//                     </ul>
-//                 </div>
-//                 <div>
-//                     <ul>
-//                         <li>icon</li>
-//                         <li>Connect</li>
-//                         <li>pk16061999@gmail.com</li>
-//                     </ul>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default ProfileDetails
 import React from "react";
 import Link from "next/link";
 
@@ -76,13 +12,16 @@ const ProfileDetails = () => {
         </h1>
 
         <h2 className="mt-3 text-lg md:text-xl text-gray-600 dark:text-gray-400">
-          Full-Stack Engineer building scalable platforms with AI integration
+          Software Engineer | Full Stack Developer
+
+          Java • Spring Boot • React • Next.js • Docker • AWS • AI Integration
+
+          B.S. Computer Science & Data Analytics | IIT Patna
+          German B1
         </h2>
 
         <p className="mt-4 max-w-2xl text-gray-500 dark:text-gray-400">
-          I design and develop production-ready web applications using
-          Next.js, Spring Boot, MySQL, PostgreSQL, MongoDB and modern cloud practices.
-          Focused on building secure, scalable systems for global users.
+          I build scalable full-stack and backend systems using Java, Spring Boot, Spring Security, React, Next.js, Docker, AWS, and AI-powered technologies including OpenAI and RAG architectures.
         </p>
       </div>
 

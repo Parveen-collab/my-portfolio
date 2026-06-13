@@ -120,6 +120,49 @@ const Skills: React.FC = () => {
           </ul>
         </div>
 
+        {/* Backend */}
+        <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
+          <h2 className="text-green-400 font-semibold mb-3">Backend</h2>
+          <ul className="text-gray-300 space-y-1">
+            <li>Spring Security</li>
+            <li>Hibernate / JPA</li>
+            <li>REST APIs</li>
+            <li>JWT Authentication</li>
+            <li>Microservices</li>
+          </ul>
+        </div>
+
+        {/* Cloud & DevOps */}
+        <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
+          <h2 className="text-green-400 font-semibold mb-3">Cloud & DevOps</h2>
+          <ul className="text-gray-300 space-y-1">
+            <li>Docker</li>
+            <li>AWS</li>
+            <li>CI/CD</li>
+            <li>GitHub Actions</li>
+          </ul>
+        </div>
+
+        {/* AI */}
+        <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
+          <h2 className="text-green-400 font-semibold mb-3">AI</h2>
+          <ul className="text-gray-300 space-y-1">
+            <li>OpenAI API</li>
+            <li>RAG (Retrieval-Augmented Generation)</li>
+            <li>AI Agents</li>
+          </ul>
+        </div>
+
+        {/* Software Engineering */}
+        <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
+          <h2 className="text-green-400 font-semibold mb-3">Software Engineering</h2>
+          <ul className="text-gray-300 space-y-1">
+            <li>System Design</li>
+            <li>Design Patterns</li>
+            <li>Data Structures & Algorithms (DSA)</li>
+          </ul>
+        </div>
+
         <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
           <h2 className="text-green-400 font-semibold mb-3">Frameworks</h2>
           <ul className="text-gray-300 space-y-1">

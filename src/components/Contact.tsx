@@ -21,6 +21,39 @@ const Contact = () => {
           <SocialProfileLinks />
         </div>
 
+        {/* Professional Information */}
+        <div className="mb-8 rounded-xl border border-slate-700 bg-slate-800/50 p-6">
+          <h2 className="mb-4 text-xl font-semibold text-blue-400">
+            Professional Information
+          </h2>
+
+          <div className="space-y-3 text-gray-300">
+            <p>
+              <span className="font-semibold text-white">📍 Location:</span>{" "}
+              India
+            </p>
+
+            <p>
+              <span className="font-semibold text-white">
+                🌍 Open to Relocation:
+              </span>{" "}
+              Germany, Netherlands, Ireland, Poland, Luxemberg, Finland, Denmark, Sweden
+            </p>
+
+            <p>
+              <span className="font-semibold text-white">🗣 Languages:</span>{" "}
+              English, Hindi, German (B1)
+            </p>
+
+            <p>
+              <span className="font-semibold text-white">
+                🎓 Expected Graduation:
+              </span>{" "}
+              July 2027
+            </p>
+          </div>
+        </div>
+
         <div className="bg-[#1c2a21] w-full max-w-2xl rounded-xl p-8 shadow-xl">
           {/* Form */}
           <form className="space-y-4">
