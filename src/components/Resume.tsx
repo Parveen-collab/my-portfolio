@@ -1,91 +1,164 @@
 import React from "react";
 
+const resumes = [
+  {
+    title: "Backend Engineer Resume",
+    description:
+      "Spring Boot, Spring Security, Hibernate, MySQL, REST APIs, Docker, AWS, System Design",
+    file: "/pdf/backend-engineer-resume.pdf",
+  },
+  {
+    title: "Full Stack Engineer Resume",
+    description:
+      "React, Next.js, TypeScript, Java, Spring Boot, Full Stack Development, AI Integration",
+    file: "/pdf/full-stack-engineer-resume.pdf",
+  },
+  {
+    title: "Software Engineer Resume",
+    description:
+      "Software Engineering, Product Development, System Design, AI Integration, Scalable Applications",
+    file: "/pdf/software-engineer-resume.pdf",
+  },
+];
+
+const skills = [
+  "React.js",
+  "Next.js",
+  "TypeScript",
+  "Java",
+  "Spring Boot",
+  "Spring Security",
+  "Hibernate/JPA",
+  "REST APIs",
+  "Microservices",
+  "System Design",
+  "Docker",
+  "AWS",
+  "MySQL",
+  "PostgreSQL",
+  "MongoDB",
+  "Tailwind CSS",
+  "Git",
+  "GitHub",
+  "AI Integration",
+];
+
 const Resume = () => {
   return (
-    <section className="w-full py-16 px-6 bg-[#141f17] text-white">
-
+    <section
+      id="resume"
+      className="w-full bg-[#141f17] px-6 py-20 text-white"
+    >
       {/* Heading */}
-      <div className="max-w-6xl mx-auto px-6 mb-12">
-        <h1 className="text-4xl font-bold md:text-5xl mb-2">Resume</h1>
+      <div className="mx-auto mb-12 max-w-6xl">
+        <h1 className="mb-3 text-4xl font-bold md:text-5xl">
+          Resume
+        </h1>
+
         <p className="text-gray-400">
-          Quick summary below and full resume preview with download option
+          Explore role-specific resumes tailored for Backend Engineer,
+          Full Stack Engineer, and Software Engineer opportunities.
         </p>
       </div>
 
-      {/* Resume Summary Card */}
-      <div className="max-w-6xl mx-auto bg-[#1c2a21] rounded-2xl p-8 shadow-lg border border-gray-700 grid grid-cols-1 md:grid-cols-2 gap-8">
-
-        {/* Left Column */}
+      {/* Main Resume Summary Card */}
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 rounded-2xl border border-slate-700 bg-[#1c2a21] p-8 shadow-lg md:grid-cols-2">
+        {/* Left Side */}
         <div className="space-y-6">
-
-          {/* Name */}
           <div>
-            <h2 className="text-xl font-semibold text-blue-400">
+            <h2 className="text-2xl font-bold text-blue-400">
               Parveen Kumar
             </h2>
-            <p className="text-gray-400">Full Stack Developer</p>
-            <p className="text-gray-400">Patna, Bihar, India • Open to relocation (Germany/EU)</p>
-            <p className="text-gray-400">parveen_24a12res426@iitp.ac.in</p>
+
+            <p className="mt-2 text-gray-300">
+              Full Stack Engineer | Backend Engineer | AI Integration
+            </p>
+
+            <p className="text-gray-400">
+              Patna, Bihar, India
+            </p>
+
+            <p className="text-gray-400">
+              Open to Relocation (Germany, Ireland, Netherlands,
+              Poland, Finland, Denmark, Sweden)
+            </p>
+
+            <p className="text-gray-400">
+              parveen_24a12res426@iitp.ac.in
+            </p>
           </div>
 
           {/* Education */}
           <div>
-            <h3 className="text-lg font-semibold mb-2">Education</h3>
-            <p className="text-gray-400">
-              B.S. in Computer Science and Data Analytics
+            <h3 className="mb-2 text-lg font-semibold text-white">
+              Education
+            </h3>
+
+            <p className="text-gray-300">
+              B.S. in Computer Science & Data Analytics
             </p>
-            <p className="text-gray-500">IIT Patna</p>
+
+            <p className="text-gray-400">
+              Indian Institute of Technology (IIT) Patna
+            </p>
+
+            <p className="text-gray-500">
+              Expected Graduation: July 2027
+            </p>
           </div>
 
           {/* Achievements */}
           <div>
-            <h3 className="text-lg font-semibold mb-2">Achievements</h3>
-            <ul className="list-disc list-inside text-gray-400 space-y-1">
-              <li>1+ year frontend development internship</li>
-              <li>Developed full-stack applications using React, Next.js, Java Spring Boot</li>
-              <li>Experience with React, Next.js, and Java</li>
+            <h3 className="mb-2 text-lg font-semibold text-white">
+              Highlights
+            </h3>
+
+            <ul className="list-disc space-y-2 pl-5 text-gray-300">
+              <li>1+ Year Software Development Internship Experience</li>
+              <li>
+                Built Full Stack Applications using React, Next.js,
+                Java & Spring Boot
+              </li>
+              <li>
+                Developed REST APIs, Authentication Systems &
+                Database Architectures
+              </li>
+              <li>
+                Experience with AI Integration and Automation
+              </li>
+              <li>German Language Proficiency (B1)</li>
             </ul>
           </div>
         </div>
 
-        {/* Right Column */}
+        {/* Right Side */}
         <div className="space-y-6">
-
           {/* Projects */}
           <div>
-            <h3 className="text-lg font-semibold mb-2">
-              Projects & Experience
+            <h3 className="mb-2 text-lg font-semibold text-white">
+              Featured Projects
             </h3>
-            <ul className="list-disc list-inside text-gray-400 space-y-1">
-              <li>Nirmaansetu Construction Platform</li>
-              <li>GitHub Profile</li>
-              <li>My Portfolio Website</li>
+
+            <ul className="list-disc space-y-2 pl-5 text-gray-300">
+              <li>Nirmaansetu - Global Construction Platform</li>
+              <li>AI Integrated Hiring Platform</li>
+              <li>Portfolio Website</li>
+              <li>Music School Platform</li>
+              <li>Cosmovista Space Exploration App</li>
             </ul>
           </div>
 
           {/* Skills */}
           <div>
-            <h3 className="text-lg font-semibold mb-3">Key Skills</h3>
+            <h3 className="mb-3 text-lg font-semibold text-white">
+              Technical Skills
+            </h3>
 
             <div className="flex flex-wrap gap-2">
-              {[
-                "React.Js",
-                "Next.js",
-                "TypeScript",
-                "Java",
-                "Spring Boot",
-                "Microservice",
-                "Event-Driven-System-Architecture",
-                "System Design",
-                "MySQL",
-                "PostgreSQL",
-                "MongoDB",
-                "Tailwind",
-                "Git & GitHub",
-              ].map((skill) => (
+              {skills.map((skill) => (
                 <span
                   key={skill}
-                  className="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-sm hover:border-blue-500 hover:text-blue-400 transition"
+                  className="rounded-full border border-slate-700 bg-slate-900 px-3 py-1 text-sm transition hover:border-blue-500 hover:text-blue-400"
                 >
                   {skill}
                 </span>
@@ -95,34 +168,66 @@ const Resume = () => {
         </div>
       </div>
 
-      {/* PDF Viewer */}
-      <div className="max-w-6xl mx-auto mt-10">
-        <div className="border border-gray-700 rounded-xl overflow-hidden shadow-lg">
-          <iframe
-            src="/pdf/master-resume.pdf"
-            className="w-full h-[700px]"
-            title="Resume"
-          />
+      {/* Resume Downloads */}
+      <div className="mx-auto mt-14 max-w-6xl">
+        <h2 className="mb-6 text-2xl font-bold text-white">
+          Download Role-Specific Resumes
+        </h2>
+
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+          {resumes.map((resume) => (
+            <div
+              key={resume.title}
+              className="rounded-xl border border-slate-700 bg-[#1c2a21] p-6 transition-all duration-300 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/10"
+            >
+              <h3 className="mb-3 text-xl font-semibold text-blue-400">
+                {resume.title}
+              </h3>
+
+              <p className="mb-6 text-gray-400">
+                {resume.description}
+              </p>
+
+              <div className="flex gap-3">
+                <a
+                  href={resume.file}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 rounded-lg bg-blue-600 px-4 py-2 text-center font-medium transition hover:bg-blue-700"
+                >
+                  View
+                </a>
+
+                <a
+                  href={resume.file}
+                  download
+                  className="flex-1 rounded-lg border border-slate-600 px-4 py-2 text-center font-medium transition hover:border-blue-500 hover:text-blue-400"
+                >
+                  Download
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
-      {/* Download Button */}
-      <div className="flex justify-center gap-4 mt-8">
-        <a
-          href="/pdf/master-resume.pdf"
-          target="_blank"
-          className="px-6 py-3 bg-blue-600 rounded-lg font-medium hover:bg-blue-700 transition"
-        >
-          View Resume
-        </a>
-
-        <a
-          href="/pdf/master-resume.pdf"
-          download
-          className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:text-blue-600 transition-colors"
-        >
-          Download Resume
-        </a>
+      {/* CTA */}
+      <div className="mx-auto mt-12 max-w-6xl rounded-xl border border-slate-700 bg-[#1c2a21] p-6">
+        <p className="text-center text-gray-300">
+          Looking for a{" "}
+          <span className="font-semibold text-blue-400">
+            Backend Engineer
+          </span>
+          ,{" "}
+          <span className="font-semibold text-blue-400">
+            Full Stack Engineer
+          </span>
+          , or{" "}
+          <span className="font-semibold text-blue-400">
+            Software Engineer
+          </span>
+          ? Download the resume most relevant to your role.
+        </p>
       </div>
     </section>
   );

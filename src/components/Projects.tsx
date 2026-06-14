@@ -10,25 +10,7 @@ const projects = [
     tech: ["Next.js", "Spring Boot", "MySQL", "AI"],
     code: "https://github.com/Parveen-collab/NirmaanSetu",
     live: "https://nirmaan-setu.vercel.app/",
-  },
-  {
-    title: "GitHub Profile",
-    description:
-      "Parveen-collab/Parveen-collab is a special repository.Its README.md will appear on your public profile.",
-    image:  "/Image/Github-profile.png",
-    tech: ["HTML, CSS, Javascript"],
-    code: "https://github.com/Parveen-collab",
-    live: "https://github.com/Parveen-collab/Parveen-collab",
-  },
-  {
-    title: "My Portfolio Website",
-    description:
-      "An Introduction Webpage for myself.",
-    image: "/Image/my-portfolio-preview.png",
-    tech: ["Next.js", "Typescript", "API Integration"],
-    code: "https://github.com/Parveen-collab/my-portfolio",
-    live: "https://my-portfolio-black-chi-37.vercel.app/",
-  },
+  }
 ]
 
 const Projects = () => {

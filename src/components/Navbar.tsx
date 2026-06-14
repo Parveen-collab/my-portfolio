@@ -15,6 +15,7 @@ const Navbar = () => {
     { name: "Skills", path: "/skills" },
     { name: "Resume", path: "/resume" },
     { name: "Contact", path: "/contact" },
+    { name: "Why Hire ME", path: "/why-hire-me" },
   ]
 
   return (
