@@ -39,12 +39,7 @@ const skills: Skill[] = [
   { name: "Tailwind", icon: <SiTailwindcss size={28} />, top: "70%", left: "70%" },
 
   { name: "Java", icon: <FaJava size={28} />, top: "50%", left: "85%" },
-
-  { name: "Python", icon: <FaPython size={28} />, top: "75%", left: "45%" },
-
-  { name: "MongoDB", icon: <SiMongodb size={28} />, top: "65%", left: "55%" },
   { name: "MySQL", icon: <SiMysql size={28} />, top: "35%", left: "60%" },
-  { name: "PostgreSQL", icon: <SiPostgresql size={28} />, top: "50%", left: "50%" },
 
   { name: "Git", icon: <FaGitAlt size={28} />, top: "15%", left: "55%" },
 
@@ -95,7 +90,6 @@ const Skills: React.FC = () => {
           <ul className="text-gray-300 space-y-1">
             <li>Javascript</li>
             <li>Java</li>
-            <li>Python</li>
           </ul>
         </div>
 
@@ -114,8 +108,6 @@ const Skills: React.FC = () => {
           <h2 className="text-green-400 font-semibold mb-3">Databases & Tools</h2>
           <ul className="text-gray-300 space-y-1">
             <li>MySQL</li>
-            <li>PostgreSQL</li>
-            <li>MongoDB</li>
             <li>Git & GitHub</li>
           </ul>
         </div>
@@ -143,16 +135,6 @@ const Skills: React.FC = () => {
           </ul>
         </div>
 
-        {/* AI */}
-        <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
-          <h2 className="text-green-400 font-semibold mb-3">AI</h2>
-          <ul className="text-gray-300 space-y-1">
-            <li>OpenAI API</li>
-            <li>RAG (Retrieval-Augmented Generation)</li>
-            <li>AI Agents</li>
-          </ul>
-        </div>
-
         {/* Software Engineering */}
         <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
           <h2 className="text-green-400 font-semibold mb-3">Software Engineering</h2>
@@ -164,23 +146,12 @@ const Skills: React.FC = () => {
         </div>
 
         <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
-          <h2 className="text-green-400 font-semibold mb-3">Frameworks</h2>
-          <ul className="text-gray-300 space-y-1">
-            <li>Spring Boot</li>
-            <li>TensorFlow</li>
-            <li>PyTorch</li>
-            <li>OpenCV</li>
-          </ul>
-        </div>
-
-        <div className="bg-gray-800 border border-gray-700 p-6 rounded-xl">
           <h2 className="text-green-400 font-semibold mb-3">Core Concepts</h2>
           <ul className="text-gray-300 space-y-1">
             <li>Data Structures & Algorithms</li>
             <li>System Design</li>
             <li>Microservice</li>
             <li>Event-Driven-Architrcture System</li>
-            <li>Explainable AI (XAI)</li>
           </ul>
         </div>
 
