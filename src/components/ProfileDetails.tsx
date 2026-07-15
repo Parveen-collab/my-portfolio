@@ -14,14 +14,14 @@ const ProfileDetails = () => {
         <h2 className="mt-3 text-lg md:text-xl text-gray-600 dark:text-gray-400">
           Software Engineer | Full Stack Developer
 
-          Java • Spring Boot • React • Next.js • Docker • AWS • AI Integration
+          Java • Spring Boot • React • Next.js • Docker • AWS
 
           B.S. Computer Science & Data Analytics | IIT Patna
           German B1
         </h2>
 
         <p className="mt-4 max-w-2xl text-gray-500 dark:text-gray-400">
-          I build scalable full-stack and backend systems using Java, Spring Boot, Spring Security, React, Next.js, Docker, AWS, and AI-powered technologies including OpenAI and RAG architectures.
+          I build scalable full-stack and backend systems using Java, Spring Boot, Spring Security, React, Next.js, Docker, AWS.
         </p>
       </div>
 
