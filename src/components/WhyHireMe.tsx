@@ -32,10 +32,6 @@ const reasons = [
     title: "MySQL • Hibernate/JPA • REST APIs",
   },
   {
-    icon: Brain,
-    title: "AI Integration & Automation Projects",
-  },
-  {
     icon: Languages,
     title: "German Language (B1)",
   },
@@ -60,7 +56,7 @@ const WhyHireMe = () => {
 
           <p className="mx-auto max-w-3xl text-lg text-gray-400">
             Full Stack Engineer focused on building scalable web applications,
-            robust backend systems, and AI-powered solutions for global users.
+            robust backend systems solutions for global users.
           </p>
         </div>
 
@@ -95,9 +91,6 @@ const WhyHireMe = () => {
             </span>,
             <span className="font-semibold text-blue-400">
               {" "}Backend Engineering
-            </span>,
-            <span className="font-semibold text-blue-400">
-              {" "}AI Integration
             </span>,
             and
             <span className="font-semibold text-blue-400">
