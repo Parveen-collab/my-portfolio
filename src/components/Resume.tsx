@@ -10,13 +10,13 @@ const resumes = [
   {
     title: "Full Stack Engineer Resume",
     description:
-      "React, Next.js, TypeScript, Java, Spring Boot, Full Stack Development, AI Integration",
+      "React, Next.js, TypeScript, Java, Spring Boot, Full Stack Development",
     file: "/pdf/full-stack-engineer-resume.pdf",
   },
   {
     title: "Software Engineer Resume",
     description:
-      "Software Engineering, Product Development, System Design, AI Integration, Scalable Applications",
+      "Software Engineering, Product Development, System Design, Scalable Applications",
     file: "/pdf/software-engineer-resume.pdf",
   },
 ];
@@ -40,7 +40,6 @@ const skills = [
   "Tailwind CSS",
   "Git",
   "GitHub",
-  "AI Integration",
 ];
 
 const Resume = () => {
@@ -71,7 +70,7 @@ const Resume = () => {
             </h2>
 
             <p className="mt-2 text-gray-300">
-              Full Stack Engineer | Backend Engineer | AI Integration
+              Frontend Engineer | Aspiring Backend Engineer | Aspiring Full-Stack Software Engineer
             </p>
 
             <p className="text-gray-400">
@@ -80,7 +79,7 @@ const Resume = () => {
 
             <p className="text-gray-400">
               Open to Relocation (Germany, Ireland, Netherlands,
-              Poland, Finland, Denmark, Sweden)
+              Poland, Finland, Denmark, Norway)
             </p>
 
             <p className="text-gray-400">
@@ -123,10 +122,7 @@ const Resume = () => {
                 Developed REST APIs, Authentication Systems &
                 Database Architectures
               </li>
-              <li>
-                Experience with AI Integration and Automation
-              </li>
-              <li>German Language Proficiency (B1)</li>
+              <li>German A1-A2 (Learning B1)</li>
             </ul>
           </div>
         </div>
@@ -141,10 +137,7 @@ const Resume = () => {
 
             <ul className="list-disc space-y-2 pl-5 text-gray-300">
               <li>Nirmaansetu - Global Construction Platform</li>
-              <li>AI Integrated Hiring Platform</li>
               <li>Portfolio Website</li>
-              <li>Music School Platform</li>
-              <li>Cosmovista Space Exploration App</li>
             </ul>
           </div>
 
