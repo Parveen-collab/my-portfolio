@@ -59,9 +59,6 @@ const ProfileDetails = () => {
         <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
           Apache Kafka
         </span>
-        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
-          AI Integration
-        </span>
       </div>
 
     </section>
