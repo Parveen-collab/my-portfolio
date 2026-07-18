@@ -12,12 +12,12 @@ const ProfileDetails = () => {
         </h1>
 
         <h2 className="mt-3 text-lg md:text-xl text-gray-600 dark:text-gray-400">
-          Software Engineer | Full Stack Developer
+          Frontend Engineer | Aspiring Backend Engineer | Aspiring Full-Stack Software Engineer
 
           Java • Spring Boot • React • Next.js • Docker • AWS
 
           B.S. Computer Science & Data Analytics | IIT Patna
-          German B1
+          German A1-A2 (Learning B1)
         </h2>
 
         <p className="mt-4 max-w-2xl text-gray-500 dark:text-gray-400">
