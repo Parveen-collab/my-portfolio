@@ -33,7 +33,7 @@ const reasons = [
   },
   {
     icon: Languages,
-    title: "German Language (B1)",
+    title: "German Language A1-A2 (Learning B1)",
   },
   {
     icon: Globe,
