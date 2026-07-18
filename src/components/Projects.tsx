@@ -5,9 +5,9 @@ const projects = [
   {
     title: "NirmaanSetu",
     description:
-      "Scalable full-stack platform connecting construction stakeholders globally with AI-based matching and analytics.",
+      "Scalable full-stack platform connecting construction stakeholders globally.",
     image: "/Image/logo-NirmaanSetu.jpg",
-    tech: ["Next.js", "Spring Boot", "MySQL", "AI"],
+    tech: ["Next.js", "Spring Boot", "MySQL"],
     code: "https://github.com/Parveen-collab/NirmaanSetu",
     live: "https://nirmaan-setu.vercel.app/",
   }
@@ -22,8 +22,7 @@ const Projects = () => {
         <div className="mb-14">
           <h1 className="text-4xl font-bold mb-4">Projects</h1>
           <p className="text-gray-400 max-w-2xl">
-            A collection of my major works — showcasing backend systems, AI
-            integration, and scalable web architecture.
+            A collection of my major works — showcasing backend systems and scalable web architecture.
           </p>
         </div>
 
