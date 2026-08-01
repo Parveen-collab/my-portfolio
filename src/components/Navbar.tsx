@@ -28,7 +28,7 @@ const Navbar = () => {
             Parveen Kumar
           </span>
           <span className="text-sm text-gray-400">
-            Frontend Engineer | Aspiring Backend Engineer | Aspiring Full-Stack Software Engineer
+            Frontend Engineer | Backend Engineer | Full-Stack Software Engineer
           </span>
         </div>
 

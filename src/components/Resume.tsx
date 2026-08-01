@@ -2,6 +2,12 @@ import React from "react";
 
 const resumes = [
   {
+    title: "Frontend Engineer Resume",
+    description:
+      "Web Developer | Frontend Engineer — HTML, CSS, JavaScript, React, Next.js, TypeScript",
+    file: "/pdf/Master_Resume_for_Frontend_Engineer.pdf",
+  },
+  {
     title: "Backend Engineer Resume",
     description:
       "Spring Boot, Spring Security, Hibernate, MySQL, REST APIs, Docker, AWS, System Design",
@@ -10,15 +16,9 @@ const resumes = [
   {
     title: "Full Stack Engineer Resume",
     description:
-      "React, Next.js, TypeScript, Java, Spring Boot, Full Stack Development",
+      "React, Next.js, TypeScript, Java, Spring Boot, Microservices, SQL, Agile/Scrum, Full Stack Development",
     file: "/pdf/full-stack-engineer-resume.pdf",
-  },
-  {
-    title: "Software Engineer Resume",
-    description:
-      "Software Engineering, Product Development, System Design, Scalable Applications",
-    file: "/pdf/software-engineer-resume.pdf",
-  },
+  }
 ];
 
 const skills = [
@@ -55,8 +55,8 @@ const Resume = () => {
         </h1>
 
         <p className="text-gray-400">
-          Explore role-specific resumes tailored for Backend Engineer,
-          Full Stack Engineer, and Software Engineer opportunities.
+          Explore role-specific resumes tailored for Frontend Engineer, Backend Engineer and 
+          Full Stack Engineer opportunities.
         </p>
       </div>
 
@@ -70,7 +70,7 @@ const Resume = () => {
             </h2>
 
             <p className="mt-2 text-gray-300">
-              Frontend Engineer | Aspiring Backend Engineer | Aspiring Full-Stack Software Engineer
+              Frontend Engineer | Backend Engineer | Full-Stack Software Engineer
             </p>
 
             <p className="text-gray-400">
@@ -78,8 +78,7 @@ const Resume = () => {
             </p>
 
             <p className="text-gray-400">
-              Open to Relocation (Germany, Ireland, Netherlands,
-              Poland, Finland, Denmark, Norway)
+              Open to Relocation (Germany)
             </p>
 
             <p className="text-gray-400">
@@ -209,16 +208,19 @@ const Resume = () => {
         <p className="text-center text-gray-300">
           Looking for a{" "}
           <span className="font-semibold text-blue-400">
-            Backend Engineer
+            Frontend Engineer
           </span>
           ,{" "}
           <span className="font-semibold text-blue-400">
-            Full Stack Engineer
+            Backend Engineer
           </span>
           , or{" "}
           <span className="font-semibold text-blue-400">
-            Software Engineer
+            Full Stack Engineer
           </span>
+          {/* <span className="font-semibold text-blue-400">
+            Software Engineer
+          </span> */}
           ? Download the resume most relevant to your role.
         </p>
       </div>

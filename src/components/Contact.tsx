@@ -37,7 +37,7 @@ const Contact = () => {
               <span className="font-semibold text-white">
                 🌍 Open to Relocation:
               </span>{" "}
-              Germany, Netherlands, Ireland, Poland, Luxemberg, Finland, Denmark, Sweden
+              Germany
             </p>
 
             <p>
