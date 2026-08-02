@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { TypeAnimation } from "react-type-animation";
 
 const ProfileDetails = () => {
   return (
@@ -8,16 +9,33 @@ const ProfileDetails = () => {
       {/* Intro */}
       <div>
         <h1 className="text-3xl md:text-5xl font-bold leading-tight">
-          Hi, I&apos;m <span className="text-blue-600">Parveen Kumar</span>
+          Hi, I'm{" "}
+          <span className="text-blue-600">
+            <TypeAnimation
+              sequence={[
+                "Parveen Kumar",
+                3000,
+              ]}
+              wrapper="span"
+              speed={70}
+              cursor={false}
+              repeat={0}
+            />
+          </span>
         </h1>
 
-        <h2 className="mt-3 text-lg md:text-xl text-gray-600 dark:text-gray-400">
-          Frontend Engineer | ackend Engineer | Full-Stack Software Engineer
-
-          Java • Spring Boot • React • Next.js • Docker • AWS
-
-          | B.S. Computer Science & Data Analytics, IIT Patna
-          | German A1-A2 (Learning B1)
+        <h2 className="mt-4 text-xl text-gray-600 dark:text-gray-400">
+          <TypeAnimation
+            sequence={[
+              "Backend Engineer", 2500,
+              "Full Stack Software Engineer", 2500,
+              "Java & Spring Boot Developer", 2500,
+              "Open Source Contributor", 2500,
+            ]}
+            speed={60}
+            repeat={Infinity}
+            cursor={true}
+          />
         </h2>
 
         <p className="mt-4 max-w-2xl text-gray-500 dark:text-gray-400">

@@ -1,3 +1,5 @@
+'use client'
+
 import ProfileDetails from '@/src/components/ProfileDetails'
 import ProfilePhoto from '@/src/components/ProfilePhoto'
 import SocialProfileLinks from '@/src/components/SocialProfileLinks'
