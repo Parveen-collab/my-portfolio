@@ -16,104 +16,94 @@ Building scalable backend systems and modern full-stack applications with Java, 
 <tr>
 <td width="50%" valign="top">
 
-🚀 About Me
+<table align="center" width="100%">
+<tr>
 
-🎓 B.S. Computer Science & Data AnalyticsIndian Institute of Technology (IIT) Patna
+<td width="50%" align="center" valign="top">
+
+<h2>🚀 About Me</h2>
+
+🎓 <b>B.S. Computer Science & Data Analytics</b><br>
+Indian Institute of Technology (IIT) Patna
+
+<br><br>
 
 💼 Frontend Engineer with backend engineering expertise
 
-🌱 Currently focusing on
+<br><br>
 
-Java
+<h3>🌱 Currently Focusing On</h3>
 
-Spring Boot
-
-Spring Security
-
-Microservices
-
-System Design
-
-Docker
-
-AWS
-
-CI/CD
+Java • Spring Boot • Spring Security •<br>
+Microservices • System Design • Docker •<br>
+AWS • CI/CD
 
 </td>
 
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
-🌍 Career
+<h2>🌍 Career</h2>
 
-Open to Opportunities
+<h3>Open to Opportunities</h3>
 
-🇩🇪 Germany
+🇩🇪 Germany • 🇳🇱 Netherlands • 🇮🇪 Ireland <br>
+🇫🇮 Finland • 🇵🇱 Poland • 🇩🇰 Denmark • 🇳🇴 Norway
 
-🇳🇱 Netherlands
+<br><br>
 
-🇮🇪 Ireland
+<h3>🗣 Languages</h3>
 
-🇫🇮 Finland
-
-🇵🇱 Poland
-
-🇩🇰 Denmark
-
-🇳🇴 Norway
-
-🗣 Languages
-
-🇬🇧 English
-
-🇮🇳 Hindi
-
-🇩🇪 German (A2)
+🇬🇧 English • 🇮🇳 Hindi • 🇩🇪 German (A2)
 
 </td>
+
 </tr>
 </table>
 
-🛠 Tech Stack
+<h2 align="center">🛠 Tech Stack</h2>
 
-<table>
+<table align="center" width="100%">
+
 <tr>
 
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
-💻 Languages
+<h3>💻 Languages</h3>
 
 <img src="https://skillicons.dev/icons?i=java,js,ts"/>
 
-🎨 Frontend
+<br><br>
+
+<h3>🎨 Frontend</h3>
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css"/>
 
 </td>
 
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
-⚙ Backend
+<h3>⚙ Backend</h3>
 
 <img src="https://skillicons.dev/icons?i=spring,nodejs"/>
 
-🗄 Database
+<br><br>
+
+<h3>🗄 Database</h3>
 
 <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb"/>
 
-☁ DevOps & Cloud
+<br><br>
+
+<h3>☁ DevOps & Cloud</h3>
 
 <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git"/>
 
 </td>
 
 </tr>
+
 </table>
 
-<table>
-<tr>
-
-<td width="60%" valign="top">
 
 🚀 Featured Project
 
@@ -143,33 +133,52 @@ Highlights
 
 <td width="40%" valign="top">
 
-⚙ Tech Stack
+<table align="center" width="100%">
 
-Java
+<tr>
 
-Spring Boot
+<td width="60%" align="center" valign="top">
 
-Spring Security
+<h2>🏗 NirmaanSetu</h2>
 
-Hibernate/JPA
+<p>
+A scalable construction management platform connecting
+employees, employers, suppliers, and contractors.
+</p>
 
-MySQL
+<h3>✨ Highlights</h3>
 
-React
+✅ JWT Authentication<br>
+✅ Spring Security<br>
+✅ REST APIs<br>
+✅ Role-Based Authorization<br>
+✅ Responsive Next.js UI<br>
+✅ MySQL Database<br>
+✅ Docker Ready<br>
+✅ GitHub Actions CI/CD
 
-Next.js
+</td>
 
-Tailwind CSS
+<td width="40%" align="center" valign="top">
 
-Docker
+<h2>⚙ Tech Stack</h2>
 
+Java<br>
+Spring Boot<br>
+Spring Security<br>
+Hibernate / JPA<br>
+MySQL<br>
+React<br>
+Next.js<br>
+Tailwind CSS<br>
+Docker<br>
 GitHub Actions
 
 </td>
 
 </tr>
-</table>
 
+</table>
 📊 GitHub Analytics
 
 <p align="center">
@@ -199,39 +208,48 @@ GitHub Actions
 
 <td width="50%" valign="top">
 
-🎯 2026 Goals
+<table align="center" width="100%">
 
-✅ Build production-grade backend systems
+<tr>
 
-✅ Master Spring Boot
+<td width="50%" align="center" valign="top">
 
-✅ Learn Microservices
+<h2>🎯 2026 Goals</h2>
 
-✅ Strengthen System Design
-
-✅ Deploy cloud applications
-
-✅ Contribute to Open Source
-
-✅ Secure an international Software Engineering opportunity
+✅ Production-grade Backend Systems<br>
+✅ Spring Boot Mastery<br>
+✅ Microservices Architecture<br>
+✅ System Design<br>
+✅ Cloud Deployment<br>
+✅ Open Source Contributions<br>
+✅ International Software Engineering Role
 
 </td>
 
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
-💡 Philosophy
+<h2>💡 Philosophy</h2>
+
+<blockquote>
 
 Great software isn't just code.
 
+<br><br>
+
 It solves real-world problems.
 
-Build scalable, maintainable, and elegant systems.
+<br><br>
+
+Build scalable, maintainable,
+and elegant systems.
+
+</blockquote>
 
 </td>
 
 </tr>
-</table>
 
+</table>
 <div align="center">
 
 📫 Connect With Me
