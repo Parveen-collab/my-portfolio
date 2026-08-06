@@ -1,4 +1,3 @@
-
 <h1 align="center">Hi 👋, I'm Parveen Kumar</h1>
 
 <h3 align="center">
@@ -13,85 +12,116 @@ Building scalable backend systems and modern full-stack applications with Java, 
 <img src="https://komarev.com/ghpvc/?username=Parveen-collab&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-# 🚀 About Me
+🚀 About Me
 
-🎓 B.S. Computer Science & Data Analytics  
-Indian Institute of Technology (IIT) Patna
+🎓 B.S. Computer Science & Data AnalyticsIndian Institute of Technology (IIT) Patna
 
 💼 Frontend Engineer with backend engineering expertise
 
 🌱 Currently focusing on
 
-- Java
-- Spring Boot
-- Spring Security
-- Microservices
-- System Design
-- Docker
-- AWS
-- CI/CD
+Java
 
-🌍 Open to opportunities in
+Spring Boot
 
-- Germany
-- Netherlands
-- Ireland
-- Finland
-- Poland
-- Denmark
-- Norway
+Spring Security
+
+Microservices
+
+System Design
+
+Docker
+
+AWS
+
+CI/CD
+
+</td>
+
+<td width="50%" valign="top">
+
+🌍 Career
+
+Open to Opportunities
+
+🇩🇪 Germany
+
+🇳🇱 Netherlands
+
+🇮🇪 Ireland
+
+🇫🇮 Finland
+
+🇵🇱 Poland
+
+🇩🇰 Denmark
+
+🇳🇴 Norway
 
 🗣 Languages
 
-- English
-- Hindi
-- German (A2)
+🇬🇧 English
 
----
+🇮🇳 Hindi
 
-# 🛠 Tech Stack
+🇩🇪 German (A2)
 
-### Languages
+</td>
+</tr>
+</table>
 
-<p>
-<img src="https://skillicons.dev/icons?i=java,js,ts" />
-</p>
+🛠 Tech Stack
 
-### Frontend
+<table>
+<tr>
 
-<p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
-</p>
+<td width="50%" valign="top">
 
-### Backend
+💻 Languages
 
-<p>
-<img src="https://skillicons.dev/icons?i=spring,nodejs" />
-</p>
+<img src="https://skillicons.dev/icons?i=java,js,ts"/>
 
-### Database
+🎨 Frontend
 
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" />
-</p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css"/>
 
-### DevOps & Cloud
+</td>
 
-<p>
-<img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git" />
-</p>
+<td width="50%" valign="top">
 
----
+⚙ Backend
 
-# 🚀 Featured Project
+<img src="https://skillicons.dev/icons?i=spring,nodejs"/>
 
-## 🏗 NirmaanSetu
+🗄 Database
 
-A scalable construction management platform connecting employees, employers, suppliers, and contractors through a modern full-stack architecture.
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb"/>
 
-### Highlights
+☁ DevOps & Cloud
+
+<img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git"/>
+
+</td>
+
+</tr>
+</table>
+
+<table>
+<tr>
+
+<td width="60%" valign="top">
+
+🚀 Featured Project
+
+🏗 NirmaanSetu
+
+A scalable construction management platform connecting employees, employers, suppliers, and contractors.
+
+Highlights
 
 ✅ JWT Authentication
 
@@ -107,102 +137,115 @@ A scalable construction management platform connecting employees, employers, sup
 
 ✅ Docker Ready
 
-✅ CI/CD Pipeline
+✅ GitHub Actions CI/CD
 
-### Tech Stack
+</td>
 
-- Java
-- Spring Boot
-- Spring Security
-- Hibernate/JPA
-- MySQL
-- React
-- Next.js
-- Tailwind CSS
-- Docker
-- GitHub Actions
+<td width="40%" valign="top">
 
----
+⚙ Tech Stack
 
-# 📈 GitHub Stats
+Java
 
-<p align="center">
+Spring Boot
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Parveen-collab&show_icons=true&theme=tokyonight&hide_border=true"/>
+Spring Security
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Parveen-collab&theme=tokyonight&hide_border=true"/>
+Hibernate/JPA
 
-</p>
+MySQL
 
-<p align="center">
+React
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parveen-collab&layout=compact&theme=tokyonight&hide_border=true"/>
+Next.js
 
-</p>
+Tailwind CSS
 
----
+Docker
 
-# 📊 Development Activity
+GitHub Actions
+
+</td>
+
+</tr>
+</table>
+
+📊 GitHub Analytics
 
 <p align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Parveen-collab&theme=tokyonight"/>
-
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Parveen-collab&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Parveen-collab&theme=tokyonight&hide_border=true"/>
 </p>
 
----
-
----
-
-# 🏆 GitHub Trophies
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Parveen-collab&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
----
-
-# 📊 Contribution Graph
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Parveen-collab&theme=tokyo-night)
-
----
-
-
-# 🎯 2026 Goals
-
-- ✅ Build production-grade backend systems
-- ✅ Master Spring Boot ecosystem
-- ✅ Learn Microservices Architecture
-- ✅ Strengthen System Design
-- ✅ Deploy scalable cloud applications
-- ✅ Contribute to Open Source
-- ✅ Secure an international Software Engineering opportunity
-
----
-
-# 📫 Connect With Me
-
-<p align="left">
-
-<a href="https://github.com/Parveen-collab">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a>
-
-<a href="https://linkedin.com/in/parveen-kumar-664b8b24b">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="mailto:parveen_24a12res426@iitp.ac.in">
-<img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
-
+<p align="center">
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parveen-collab&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="58%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Parveen-collab&theme=tokyonight"/>
 </p>
 
----
+🏆 GitHub Trophies
 
-# 💡 Philosophy
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=Parveen-collab&theme=tokyonight&no-frame=true&row=1&column=7"/>
+</p>
 
-> "Great software isn't just code—it's solving real problems with scalable, maintainable, and elegant engineering."
+📈 Contribution Graph
 
----
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Parveen-collab&theme=tokyo-night"/>
+</p>
 
-⭐ If you like my work, consider giving a star to my repositories.
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+🎯 2026 Goals
+
+✅ Build production-grade backend systems
+
+✅ Master Spring Boot
+
+✅ Learn Microservices
+
+✅ Strengthen System Design
+
+✅ Deploy cloud applications
+
+✅ Contribute to Open Source
+
+✅ Secure an international Software Engineering opportunity
+
+</td>
+
+<td width="50%" valign="top">
+
+💡 Philosophy
+
+Great software isn't just code.
+
+It solves real-world problems.
+
+Build scalable, maintainable, and elegant systems.
+
+</td>
+
+</tr>
+</table>
+
+<div align="center">
+
+📫 Connect With Me
+
+<a href="https://github.com/Parveen-collab"><img src="https://skillicons.dev/icons?i=github"/></a><a href="https://linkedin.com/in/parveen-kumar-664b8b24b"><img src="https://skillicons.dev/icons?i=linkedin"/></a><a href="mailto:parveen_24a12res426@iitp.ac.in"><img src="https://skillicons.dev/icons?i=gmail"/></a>
+
+</div>
+
+<div align="center">
+
+⭐ Thanks for visiting my profile!
+
+"Great software is built through continuous learning, collaboration, and curiosity."
+
+If you like my work, consider ⭐ starring my repositories.
+
+</div>
