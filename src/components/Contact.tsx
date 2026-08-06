@@ -42,7 +42,7 @@ const Contact = () => {
 
             <p>
               <span className="font-semibold text-white">🗣 Languages:</span>{" "}
-              English, Hindi, German (B1)
+              English, Hindi, German (A2)
             </p>
 
             <p>

@@ -47,7 +47,7 @@ Indian Institute of Technology (IIT) Patna
 
 - English
 - Hindi
-- German (B1)
+- German (A2)
 
 ---
 

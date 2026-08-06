@@ -11,10 +11,10 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Projects", path: "/projects" },
     { name: "Skills", path: "/skills" },
+    { name: "Projects", path: "/projects" },
     { name: "Resume", path: "/resume" },
-    { name: "Contact", path: "/contact" },
+    // { name: "Contact", path: "/contact" },
     { name: "Why Hire ME", path: "/why-hire-me" },
   ]
 
@@ -44,11 +44,10 @@ const Navbar = () => {
               <li key={link.path}>
                 <Link
                   href={link.path}
-                  className={`transition-colors ${
-                    isActive
+                  className={`transition-colors ${isActive
                       ? "text-blue-600 font-semibold"
                       : "hover:text-blue-600"
-                  }`}
+                    }`}
                 >
                   {link.name}
                 </Link>
@@ -83,11 +82,10 @@ const Navbar = () => {
                   <Link
                     href={link.path}
                     onClick={() => setIsOpen(false)}
-                    className={`text-lg ${
-                      isActive
+                    className={`text-lg ${isActive
                         ? "text-blue-600 font-semibold"
                         : "hover:text-blue-600"
-                    }`}
+                      }`}
                   >
                     {link.name}
                   </Link>

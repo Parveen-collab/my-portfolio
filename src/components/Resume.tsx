@@ -121,7 +121,7 @@ const Resume = () => {
                 Developed REST APIs, Authentication Systems &
                 Database Architectures
               </li>
-              <li>German A1-A2 (Learning B1)</li>
+              <li>German (A2)</li>
             </ul>
           </div>
         </div>

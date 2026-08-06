@@ -1,33 +1,13 @@
-// import React from 'react'
-
-// const SocialProfileLinks = () => {
-//     return (
-//         <div className='flex flex-col'>
-//             <div className='flex items-center justify-center'>
-//                 <h1>Connect</h1>
-//             </div>
-//             <div className='flex flex-col md:flex-row'>
-//                 <div>Github Icon</div>
-//                 <div>LinkedIn Icon</div>
-//                 <div>Message Icon</div>
-//                 <div>WhatsApp Icon</div>
-//                 <div>Instagram Icon</div>
-//                 <div>Facebook Icon</div>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default SocialProfileLinks
 'use client'
+
 import React from "react";
 import Link from "next/link";
 import { Github, Linkedin, Mail } from "lucide-react";
+import { SiLeetcode, SiHackerrank } from "react-icons/si";
 
 const SocialProfileLinks = () => {
   return (
     <div className="flex flex-col gap-4">
-
       <div className="flex items-center gap-6">
 
         <Link
@@ -49,6 +29,24 @@ const SocialProfileLinks = () => {
         </Link>
 
         <Link
+          href="https://leetcode.com/u/Pakumarrveen/"
+          target="_blank"
+          className="p-3 rounded-full border border-gray-300 hover:text-[#FFA116] transition-colors"
+          aria-label="LeetCode Profile"
+        >
+          <SiLeetcode size={20} />
+        </Link>
+
+        <Link
+          href="https://www.hackerrank.com/profile/parveen_24a12re1"
+          target="_blank"
+          className="p-3 rounded-full border border-gray-300 hover:text-[#2EC866] transition-colors"
+          aria-label="HackerRank Profile"
+        >
+          <SiHackerrank size={20} />
+        </Link>
+
+        <Link
           href="mailto:pk16061999@gmail.com"
           className="p-3 rounded-full border border-gray-300 hover:text-blue-600 transition-colors"
           aria-label="Send Email"
@@ -57,7 +55,6 @@ const SocialProfileLinks = () => {
         </Link>
 
       </div>
-
     </div>
   );
 };
