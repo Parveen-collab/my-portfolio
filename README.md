@@ -1,3 +1,4 @@
+
 <h1 align="center">Hi 👋, I'm Parveen Kumar</h1>
 
 <h3 align="center">
@@ -12,106 +13,85 @@ Building scalable backend systems and modern full-stack applications with Java, 
 <img src="https://komarev.com/ghpvc/?username=Parveen-collab&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+---
 
-<table align="center" width="100%">
-<tr>
+# 🚀 About Me
 
-<td width="50%" align="center" valign="top">
-
-<h2>🚀 About Me</h2>
-
-🎓 <b>B.S. Computer Science & Data Analytics</b><br>
+🎓 B.S. Computer Science & Data Analytics  
 Indian Institute of Technology (IIT) Patna
-
-<br><br>
 
 💼 Frontend Engineer with backend engineering expertise
 
-<br><br>
+🌱 Currently focusing on
 
-<h3>🌱 Currently Focusing On</h3>
+- Java
+- Spring Boot
+- Spring Security
+- Microservices
+- System Design
+- Docker
+- AWS
+- CI/CD
 
-Java • Spring Boot • Spring Security •<br>
-Microservices • System Design • Docker •<br>
-AWS • CI/CD
+🌍 Open to opportunities in
 
-</td>
+- Germany
+- Netherlands
+- Ireland
+- Finland
+- Poland
+- Denmark
+- Norway
 
-<td width="50%" align="center" valign="top">
+🗣 Languages
 
-<h2>🌍 Career</h2>
+- English
+- Hindi
+- German (A2)
 
-<h3>Open to Opportunities</h3>
+---
 
-🇩🇪 Germany • 🇳🇱 Netherlands • 🇮🇪 Ireland <br>
-🇫🇮 Finland • 🇵🇱 Poland • 🇩🇰 Denmark • 🇳🇴 Norway
+# 🛠 Tech Stack
 
-<br><br>
+### Languages
 
-<h3>🗣 Languages</h3>
+<p>
+<img src="https://skillicons.dev/icons?i=java,js,ts" />
+</p>
 
-🇬🇧 English • 🇮🇳 Hindi • 🇩🇪 German (A2)
+### Frontend
 
-</td>
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" />
+</p>
 
-</tr>
-</table>
+### Backend
 
-<h2 align="center">🛠 Tech Stack</h2>
+<p>
+<img src="https://skillicons.dev/icons?i=spring,nodejs" />
+</p>
 
-<table align="center" width="100%">
+### Database
 
-<tr>
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" />
+</p>
 
-<td width="50%" align="center" valign="top">
+### DevOps & Cloud
 
-<h3>💻 Languages</h3>
+<p>
+<img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git" />
+</p>
 
-<img src="https://skillicons.dev/icons?i=java,js,ts"/>
+---
 
-<br><br>
+# 🚀 Featured Project
 
-<h3>🎨 Frontend</h3>
+## 🏗 NirmaanSetu
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css"/>
+A scalable construction management platform connecting employees, employers, suppliers, and contractors through a modern full-stack architecture.
 
-</td>
-
-<td width="50%" align="center" valign="top">
-
-<h3>⚙ Backend</h3>
-
-<img src="https://skillicons.dev/icons?i=spring,nodejs"/>
-
-<br><br>
-
-<h3>🗄 Database</h3>
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb"/>
-
-<br><br>
-
-<h3>☁ DevOps & Cloud</h3>
-
-<img src="https://skillicons.dev/icons?i=docker,aws,githubactions,git"/>
-
-</td>
-
-</tr>
-
-</table>
-
-
-🚀 Featured Project
-
-🏗 NirmaanSetu
-
-A scalable construction management platform connecting employees, employers, suppliers, and contractors.
-
-Highlights
+### Highlights
 
 ✅ JWT Authentication
 
@@ -127,143 +107,102 @@ Highlights
 
 ✅ Docker Ready
 
-✅ GitHub Actions CI/CD
+✅ CI/CD Pipeline
 
-</td>
+### Tech Stack
 
-<td width="40%" valign="top">
+- Java
+- Spring Boot
+- Spring Security
+- Hibernate/JPA
+- MySQL
+- React
+- Next.js
+- Tailwind CSS
+- Docker
+- GitHub Actions
 
-<table align="center" width="100%">
+---
 
-<tr>
-
-<td width="60%" align="center" valign="top">
-
-<h2>🏗 NirmaanSetu</h2>
-
-<p>
-A scalable construction management platform connecting
-employees, employers, suppliers, and contractors.
-</p>
-
-<h3>✨ Highlights</h3>
-
-✅ JWT Authentication<br>
-✅ Spring Security<br>
-✅ REST APIs<br>
-✅ Role-Based Authorization<br>
-✅ Responsive Next.js UI<br>
-✅ MySQL Database<br>
-✅ Docker Ready<br>
-✅ GitHub Actions CI/CD
-
-</td>
-
-<td width="40%" align="center" valign="top">
-
-<h2>⚙ Tech Stack</h2>
-
-Java<br>
-Spring Boot<br>
-Spring Security<br>
-Hibernate / JPA<br>
-MySQL<br>
-React<br>
-Next.js<br>
-Tailwind CSS<br>
-Docker<br>
-GitHub Actions
-
-</td>
-
-</tr>
-
-</table>
-📊 GitHub Analytics
+# 📈 GitHub Stats
 
 <p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Parveen-collab&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Parveen-collab&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Parveen-collab&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Parveen-collab&theme=tokyonight&hide_border=true"/>
+
 </p>
 
 <p align="center">
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parveen-collab&layout=compact&theme=tokyonight&hide_border=true"/>
-<img width="58%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Parveen-collab&theme=tokyonight"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Parveen-collab&layout=compact&theme=tokyonight&hide_border=true"/>
+
 </p>
 
-🏆 GitHub Trophies
+---
+
+# 📊 Development Activity
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Parveen-collab&theme=tokyonight&no-frame=true&row=1&column=7"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Parveen-collab&theme=tokyonight"/>
+
 </p>
 
-📈 Contribution Graph
+---
 
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Parveen-collab&theme=tokyo-night"/>
+---
+
+# 🏆 GitHub Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Parveen-collab&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
+# 📊 Contribution Graph
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Parveen-collab&theme=tokyo-night)
+
+---
+
+
+# 🎯 2026 Goals
+
+- ✅ Build production-grade backend systems
+- ✅ Master Spring Boot ecosystem
+- ✅ Learn Microservices Architecture
+- ✅ Strengthen System Design
+- ✅ Deploy scalable cloud applications
+- ✅ Contribute to Open Source
+- ✅ Secure an international Software Engineering opportunity
+
+---
+
+# 📫 Connect With Me
+
+<p align="left">
+
+<a href="https://github.com/Parveen-collab">
+<img src="https://skillicons.dev/icons?i=github"/>
+</a>
+
+<a href="https://linkedin.com/in/parveen-kumar-664b8b24b">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
+</a>
+
+<a href="mailto:parveen_24a12res426@iitp.ac.in">
+<img src="https://skillicons.dev/icons?i=gmail"/>
+</a>
+
 </p>
 
-<table>
-<tr>
+---
 
-<td width="50%" valign="top">
+# 💡 Philosophy
 
-<table align="center" width="100%">
+> "Great software isn't just code—it's solving real problems with scalable, maintainable, and elegant engineering."
 
-<tr>
+---
 
-<td width="50%" align="center" valign="top">
-
-<h2>🎯 2026 Goals</h2>
-
-✅ Production-grade Backend Systems<br>
-✅ Spring Boot Mastery<br>
-✅ Microservices Architecture<br>
-✅ System Design<br>
-✅ Cloud Deployment<br>
-✅ Open Source Contributions<br>
-✅ International Software Engineering Role
-
-</td>
-
-<td width="50%" align="center" valign="top">
-
-<h2>💡 Philosophy</h2>
-
-<blockquote>
-
-Great software isn't just code.
-
-<br><br>
-
-It solves real-world problems.
-
-<br><br>
-
-Build scalable, maintainable,
-and elegant systems.
-
-</blockquote>
-
-</td>
-
-</tr>
-
-</table>
-<div align="center">
-
-📫 Connect With Me
-
-<a href="https://github.com/Parveen-collab"><img src="https://skillicons.dev/icons?i=github"/></a><a href="https://linkedin.com/in/parveen-kumar-664b8b24b"><img src="https://skillicons.dev/icons?i=linkedin"/></a><a href="mailto:parveen_24a12res426@iitp.ac.in"><img src="https://skillicons.dev/icons?i=gmail"/></a>
-
-</div>
-
-<div align="center">
-
-⭐ Thanks for visiting my profile!
-
-"Great software is built through continuous learning, collaboration, and curiosity."
-
-If you like my work, consider ⭐ starring my repositories.
-
-</div>
+⭐ If you like my work, consider giving a star to my repositories.
