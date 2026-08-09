@@ -77,7 +77,7 @@ const Skills: React.FC = () => {
     <section className="py-20 text-white relative">
 
       {/* Title */}
-      <div className="max-w-6xl mx-auto px-6 mb-12">
+      <div className="max-w-6xl mx-auto px-6 mb-12 text-center">
         <h1 className="text-4xl font-bold">Skills</h1>
         <p className="text-gray-400 mt-2">
           Technical expertise honed with curiosity to solve complex problems

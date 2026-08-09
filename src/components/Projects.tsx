@@ -19,9 +19,9 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto">
 
         {/* Header */}
-        <div className="mb-14">
-          <h1 className="text-4xl font-bold mb-4">Projects</h1>
-          <p className="text-gray-400 max-w-2xl">
+        <div className="max-w-6xl mx-auto px-6 mb-12 text-center">
+          <h1 className="text-4xl font-bold">Projects</h1>
+          <p className="text-gray-400 mt-2">
             A collection of my major works — showcasing backend systems and scalable web architecture.
           </p>
         </div>

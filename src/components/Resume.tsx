@@ -49,12 +49,12 @@ const Resume = () => {
       className="w-full bg-[#141f17] px-6 py-20 text-white"
     >
       {/* Heading */}
-      <div className="mx-auto mb-12 max-w-6xl">
-        <h1 className="mb-3 text-4xl font-bold md:text-5xl">
+      <div className="max-w-6xl mx-auto px-6 mb-12 text-center">
+        <h1 className="text-4xl font-bold">
           Resume
         </h1>
 
-        <p className="text-gray-400">
+        <p className="text-gray-400 mt-2">
           Explore role-specific resumes tailored for Frontend Engineer, Backend Engineer and 
           Full Stack Engineer opportunities.
         </p>

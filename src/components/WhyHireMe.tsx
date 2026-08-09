@@ -49,12 +49,12 @@ const WhyHireMe = () => {
     >
       <div className="mx-auto max-w-6xl">
         {/* Heading */}
-        <div className="mb-14 text-center">
-          <h2 className="mb-4 text-4xl font-bold text-white md:text-5xl">
+        <div className="max-w-6xl mx-auto px-6 mb-12 text-center">
+          <h1 className="text-4xl font-bold">
             Why Hire Me?
-          </h2>
+          </h1>
 
-          <p className="mx-auto max-w-3xl text-lg text-gray-400">
+          <p className="text-gray-400 mt-2">
             Full Stack Engineer focused on building scalable web applications,
             robust backend systems solutions for global users.
           </p>
