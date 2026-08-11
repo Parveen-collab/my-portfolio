@@ -45,11 +45,11 @@ const WhyHireMe = () => {
   return (
     <section
       id="why-hire-me"
-      className="px-4 py-20"
+      className="px-4 py-10"
     >
       <div className="mx-auto max-w-6xl">
         {/* Heading */}
-        <div className="max-w-6xl mx-auto px-6 mb-12 text-center">
+        {/* <div className="max-w-6xl mx-auto px-6 mb-12 text-center">
           <h1 className="text-4xl font-bold">
             Why Hire Me?
           </h1>
@@ -58,7 +58,7 @@ const WhyHireMe = () => {
             Full Stack Engineer focused on building scalable web applications,
             robust backend systems solutions for global users.
           </p>
-        </div>
+        </div> */}
 
         {/* Cards */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">

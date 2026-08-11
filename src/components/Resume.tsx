@@ -46,25 +46,8 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="w-full bg-[#141f17] px-6 py-20 text-white"
+      className="w-full bg-[#141f17] px-6 py-1o mb-20 text-white"
     >
-      {/* Heading */}
-      <div className="max-w-6xl mx-auto px-6 mb-12 text-center">
-        <h1 className="text-4xl font-bold">
-          Resume
-        </h1>
-
-        <p className="text-gray-400 mt-2">
-          Explore role-specific resumes tailored for Frontend Engineer, Backend Engineer and
-          Full Stack Engineer opportunities.
-        </p>
-      </div>
-
-      {/* Main Resume Summary Card */}
-      {/* =========================
-    BACKEND-FOCUSED RESUME
-    CENTERED PORTFOLIO SECTION
-========================= */}
 
       <section className="mx-auto max-w-5xl px-4 py-12">
         <div
@@ -506,9 +489,7 @@ const Resume = () => {
           </div>
 
 
-          {/* =========================
-        DOWNLOAD RESUME
-    ========================= */}
+          {/* =========================DOWNLOAD RESUME ========================= */}
           <div className="mt-12 flex justify-center">
 
             <a
@@ -550,9 +531,9 @@ const Resume = () => {
                 {resume.title}
               </h3>
 
-              <p className="mb-6 text-gray-400">
+              {/* <p className="mb-6 text-gray-400">
                 {resume.description}
-              </p>
+              </p> */}
 
               <div className="flex gap-3">
                 <a
@@ -575,28 +556,6 @@ const Resume = () => {
             </div>
           ))}
         </div>
-      </div>
-
-      {/* CTA */}
-      <div className="mx-auto mt-12 max-w-6xl rounded-xl border border-slate-700 bg-[#1c2a21] p-6">
-        <p className="text-center text-gray-300">
-          Looking for a{" "}
-          <span className="font-semibold text-blue-400">
-            Frontend Engineer
-          </span>
-          ,{" "}
-          <span className="font-semibold text-blue-400">
-            Backend Engineer
-          </span>
-          , or{" "}
-          <span className="font-semibold text-blue-400">
-            Full Stack Engineer
-          </span>
-          {/* <span className="font-semibold text-blue-400">
-            Software Engineer
-          </span> */}
-          ? Download the resume most relevant to your role.
-        </p>
       </div>
     </section>
   );
