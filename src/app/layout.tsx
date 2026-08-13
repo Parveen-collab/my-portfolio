@@ -13,37 +13,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Parveen Kumar | Full-Stack Engineer | AI Integration",
+  title: "Parveen Kumar | Full-Stack Software Engineer",
   description:
-    "Parveen Kumar is a Full-Stack Engineer specializing in scalable web applications using Next.js, Spring Boot, PostgreSQL, and AI-powered integrations.",
+    "Parveen Kumar is a Full-Stack Software Engineer specializing in Next.js, React, Java, Spring Boot, MySQL, and scalable web applications.",
   keywords: [
     "Parveen Kumar",
-    "Full Stack Developer",
+    "Full Stack Software Engineer",
+    "Frontend Engineer",
     "Next.js Developer",
+    "React Developer",
     "Spring Boot Developer",
-    "AI Integration",
+    "Java Developer",
     "Software Engineer Portfolio",
   ],
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`
-          ${geistSans.variable} 
-          ${geistMono.variable} 
-          antialiased
-        `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-
-        <main className="flex flex-col">
-          {children}
-        </main>
+        {children}
       </body>
     </html>
   );

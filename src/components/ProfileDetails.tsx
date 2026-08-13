@@ -1,84 +1,121 @@
-import React from "react";
+"use client";
+
 import Link from "next/link";
-import { TypeAnimation } from "react-type-animation";
+import React from "react";
 
 const ProfileDetails = () => {
   return (
-    <section className="flex flex-col gap-6">
-
+    <section className="flex max-w-3xl flex-col gap-7">
       {/* Intro */}
       <div>
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight">
+        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-blue-400">
+          Full-Stack Software Engineer
+        </p>
+
+        <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
           Hi, I'm{" "}
-          <span className="text-blue-600">
-            <TypeAnimation
-              sequence={[
-                "Parveen Kumar",
-                3000,
-              ]}
-              wrapper="span"
-              speed={70}
-              cursor={false}
-              repeat={0}
-            />
+          <span className="text-blue-500">
+            Parveen Kumar
           </span>
         </h1>
 
-        <h2 className="mt-4 text-xl text-gray-600 dark:text-gray-400">
-          <TypeAnimation
-            sequence={[
-              "Backend Engineer", 2500,
-              "Full Stack Software Engineer", 2500,
-              "Java & Spring Boot Developer", 2500,
-              "Open Source Contributor", 2500,
-            ]}
-            speed={60}
-            repeat={Infinity}
-            cursor={true}
-          />
+        <h2 className="mt-5 text-xl font-medium leading-relaxed text-white/80 sm:text-2xl">
+          I build scalable web applications and backend systems.
         </h2>
 
-        <p className="mt-4 max-w-2xl text-gray-500 dark:text-gray-400">
-          I build scalable full-stack and backend systems using Java, Spring Boot, Spring Security, React, Next.js, Docker, AWS.
+        <p className="mt-5 max-w-2xl text-base leading-7 text-white/60 sm:text-lg">
+          I work across the stack using Next.js, React, Java, Spring Boot,
+          and MySQL, with a focus on clean architecture, secure APIs,
+          responsive interfaces, and production-ready applications.
         </p>
       </div>
 
       {/* CTA Buttons */}
       <div className="flex flex-wrap gap-4">
         <Link
-          href="/projects"
-          className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition"
+          href="#projects"
+          className="
+            rounded-lg
+            bg-blue-600
+            px-6
+            py-3
+            font-semibold
+            text-white
+            transition-all
+            duration-200
+            hover:-translate-y-0.5
+            hover:bg-blue-500
+            hover:shadow-lg
+            hover:shadow-blue-500/20
+            focus:outline-none
+            focus:ring-2
+            focus:ring-blue-500
+            focus:ring-offset-2
+            focus:ring-offset-[#0d1b13]
+          "
         >
           View Projects
         </Link>
 
-        <Link
-          href="/resume"
-          className="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:text-blue-600 transition-colors"
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            rounded-lg
+            border
+            border-white/20
+            px-6
+            py-3
+            font-semibold
+            text-white
+            transition-all
+            duration-200
+            hover:-translate-y-0.5
+            hover:border-blue-500
+            hover:text-blue-400
+            focus:outline-none
+            focus:ring-2
+            focus:ring-blue-500
+            focus:ring-offset-2
+            focus:ring-offset-[#0d1b13]
+          "
         >
           Download Resume
-        </Link>
+        </a>
       </div>
 
-      {/* Tech Stack Highlights */}
-      <div className="flex flex-wrap gap-3 text-sm text-gray-600">
-        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
-          Next.js
-        </span>
-        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
-          Spring Boot
-        </span>
-        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
-          MySQL
-        </span>
-        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
-          Microservice
-        </span>
-        <span className="px-3 py-1 rounded-full border hover:text-blue-600 transition-colors">
-          Apache Kafka
-        </span>
+      {/* Core Stack */}
+      <div className="flex flex-wrap gap-2.5 pt-1">
+        {[
+          "Next.js",
+          "React",
+          "Java",
+          "Spring Boot",
+          "MySQL",
+        ].map((technology) => (
+          <span
+            key={technology}
+            className="
+              rounded-full
+              border
+              border-white/10
+              bg-white/[0.03]
+              px-3.5
+              py-1.5
+              text-sm
+              text-white/60
+              transition-all
+              duration-200
+              hover:border-blue-500/40
+              hover:bg-blue-500/5
+              hover:text-blue-400
+            "
+          >
+            {technology}
+          </span>
+        ))}
       </div>
-
     </section>
   );
 };

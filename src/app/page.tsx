@@ -1,15 +1,18 @@
 import Home from "@/src/components/Home";
-import Projects from "@/src/components/Projects";
 import Skills from "@/src/components/Skills";
+import Projects from "@/src/components/Projects";
+import Footer from "@/src/components/Footer";
 
 export default function Page() {
   return (
     <div className="min-h-screen font-sans">
-      <main className="flex flex-col">
+      <main>
         <Home />
         <Skills />
         <Projects />
       </main>
+
+      <Footer />
     </div>
   );
 }

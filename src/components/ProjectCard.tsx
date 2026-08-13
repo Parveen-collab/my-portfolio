@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { ExternalLink, Github } from "lucide-react";
 
 type Project = {
   title: string;
@@ -16,56 +17,72 @@ type ProjectCardProps = {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div
+    <article
       className="
-        bg-[#111]
-        rounded-2xl
+        group
         overflow-hidden
+        rounded-2xl
         border
-        border-gray-800
-        hover:border-blue-600
+        border-white/10
+        bg-white/[0.03]
+        backdrop-blur-sm
         transition-all
         duration-300
-        hover:shadow-xl
+        hover:-translate-y-2
+        hover:border-blue-500/40
+        hover:shadow-2xl
         hover:shadow-blue-500/10
       "
     >
-      {/* Image */}
-      <div className="relative h-52 w-full">
+      {/* Project Image */}
+      <div className="relative h-56 w-full overflow-hidden">
         <Image
           src={project.image}
-          alt={project.title}
+          alt={`${project.title} project preview`}
           fill
-          className="object-cover"
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="
+            object-cover
+            transition-transform
+            duration-500
+            group-hover:scale-105
+          "
         />
+
+        {/* Image overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
       </div>
 
       {/* Content */}
-      <div className="flex flex-col gap-4 p-6">
-
+      <div className="flex flex-col gap-5 p-7">
         {/* Title */}
-        <h2 className="text-xl font-semibold">
-          {project.title}
-        </h2>
+        <div>
+          <h3 className="text-2xl font-bold tracking-tight text-white">
+            {project.title}
+          </h3>
 
-        {/* Description */}
-        <p className="text-sm text-gray-400">
-          {project.description}
-        </p>
+          <p className="mt-3 text-sm leading-6 text-white/60">
+            {project.description}
+          </p>
+        </div>
 
         {/* Tech Stack */}
         <div className="flex flex-wrap gap-2">
-          {project.tech.map((tech, index) => (
+          {project.tech.map((tech) => (
             <span
-              key={index}
+              key={tech}
               className="
                 rounded-full
                 border
-                border-gray-700
-                bg-gray-800
+                border-white/10
+                bg-white/[0.04]
                 px-3
-                py-1
+                py-1.5
                 text-xs
+                font-medium
+                text-white/60
+                transition-colors
+                group-hover:border-blue-500/20
               "
             >
               {tech}
@@ -73,51 +90,69 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           ))}
         </div>
 
-        {/* Buttons */}
-        <div className="flex gap-4 pt-4">
-
-          {/* Code */}
+        {/* Links */}
+        <div className="flex gap-3 pt-2">
           <a
             href={project.code}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={`View ${project.title} source code on GitHub`}
             className="
+              flex
               flex-1
+              items-center
+              justify-center
+              gap-2
               rounded-lg
               border
-              border-gray-700
-              py-2
-              text-center
+              border-white/15
+              px-4
+              py-2.5
               text-sm
-              transition
-              hover:border-blue-600
+              font-medium
+              text-white/80
+              transition-all
+              duration-200
+              hover:border-blue-500/50
+              hover:bg-blue-500/5
+              hover:text-blue-400
             "
           >
+            <Github size={17} />
             Code
           </a>
 
-          {/* Live */}
           <a
             href={project.live}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={`View ${project.title} live website`}
             className="
+              flex
               flex-1
+              items-center
+              justify-center
+              gap-2
               rounded-lg
               bg-blue-600
-              py-2
-              text-center
+              px-4
+              py-2.5
               text-sm
-              transition
-              hover:bg-blue-700
+              font-semibold
+              text-white
+              transition-all
+              duration-200
+              hover:bg-blue-500
+              hover:shadow-lg
+              hover:shadow-blue-500/20
             "
           >
-            Live
+            <ExternalLink size={17} />
+            Live Demo
           </a>
-
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 
