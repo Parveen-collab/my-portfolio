@@ -36,12 +36,6 @@ Indian Institute of Technology (IIT) Patna
 🌍 Open to opportunities in
 
 - Germany
-- Netherlands
-- Ireland
-- Finland
-- Poland
-- Denmark
-- Norway
 
 🗣 Languages
 

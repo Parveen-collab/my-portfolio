@@ -1,11 +1,14 @@
 import Home from "@/src/components/Home";
-import Image from "next/image";
+import Projects from "@/src/components/Projects";
+import Skills from "@/src/components/Skills";
 
-export default function page() {
+export default function Page() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans">
-      <main className="flex items-center justify-between">
-        <Home/>
+    <div className="min-h-screen font-sans">
+      <main className="flex flex-col">
+        <Home />
+        <Skills />
+        <Projects />
       </main>
     </div>
   );
