@@ -85,6 +85,14 @@ const backendSkills: Skill[] = [
     icon: <SiSpringsecurity />,
   },
   {
+    name: "MySQL",
+    icon: <SiMysql />,
+  },
+  {
+    name: "Redis",
+    icon: <SiRedis />,
+  },
+  {
     name: "Hibernate",
     icon: <SiHibernate />,
   },
@@ -98,24 +106,6 @@ const backendSkills: Skill[] = [
   },
 ];
 
-const databaseSkills: Skill[] = [
-  {
-    name: "MySQL",
-    icon: <SiMysql />,
-  },
-  {
-    name: "PostgreSQL",
-    icon: <SiPostgresql />,
-  },
-  {
-    name: "MongoDB",
-    icon: <SiMongodb />,
-  },
-  {
-    name: "Redis",
-    icon: <SiRedis />,
-  },
-];
 
 const toolsSkills: Skill[] = [
   {
@@ -265,11 +255,6 @@ const Skills: React.FC = () => {
           <SkillCategory
             title="Backend Technologies"
             skills={backendSkills}
-          />
-
-          <SkillCategory
-            title="Databases"
-            skills={databaseSkills}
           />
 
           <SkillCategory
